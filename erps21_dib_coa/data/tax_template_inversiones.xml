@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="inv_ITAX_19" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+        <field name="name">IVA 19% Venta</field>
+        <field name="description">IVA 19% Vta</field>
+        <field name="amount">19</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">sale</field>
+        <field name="l10n_cl_sii_code">14</field>
+        <field name="tax_group_id" ref="l10n_cl.tax_group_iva_19"/>
+        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_ventas_netas_gravadas_c_iva')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'account_id': ref('inv_acct_iva_debito'),
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_iva_debito_fiscal')],
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_ventas_netas_gravadas_c_iva')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'account_id': ref('inv_acct_iva_debito'),
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_iva_debito_fiscal')],
+            }),
+        ]"/>
+    </record>
+
+    <record id="inv_OTAX_19" model="account.tax.template">
+      <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+      <field name="name">IVA 19% Compra</field>
+      <field name="description">IVA 19% Comp</field>
+      <field name="amount">19</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="l10n_cl_sii_code">14</field>
+      <field name="tax_group_id" ref="l10n_cl.tax_group_iva_19"/>
+      <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_netas_gr_iva_recup')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'account_id': ref('inv_acct_iva_credito'),
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_recup')],
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_netas_gr_iva_recup')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'account_id': ref('inv_acct_iva_credito'),
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_recup')],
+            }),
+        ]"/>
+    </record>
+
+    <record id="inv_especifico_compra" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+        <field name="name">Específico Compra</field>
+        <field name="description">Espec. Comp</field>
+        <field name="amount">63</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="l10n_cl_sii_code">29</field>
+        <field name="sequence" eval="5"/>
+        <field name="tax_group_id" ref="l10n_cl.tax_group_impuestos_especificos"/>
+        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'account_id': ref('inv_acct_especifico'),
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'account_id': ref('inv_acct_especifico'),
+            }),
+        ]"/>
+    </record>
+
+
+    <record id="inv_iva_compra_no_recup" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+        <field name="name">IVA Compra 19% No Recup.</field>
+        <field name="description">IVA 19% NoR</field>
+        <field name="amount">19</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="l10n_cl_sii_code">14</field>
+        <field name="sequence" eval="6"/>
+        <field name="tax_group_id" ref="l10n_cl.tax_group_iva_19"/>
+        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_netas_gr_iva_no_recuperable')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_no_recup')],
+                'account_id': ref('inv_acct_especifico'),
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_netas_gr_iva_no_recuperable')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_no_recup')],
+                'account_id': ref('inv_acct_especifico'),
+            }),
+        ]"/>
+    </record>
+
+    <record id="inv_iva_compra_uso_comun" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+        <field name="name">IVA Compra 19% Uso Común</field>
+        <field name="description">IVA 19% CUC</field>
+        <field name="amount">19</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="l10n_cl_sii_code">14</field>
+        <field name="sequence" eval="6"/>
+        <field name="tax_group_id" ref="l10n_cl.tax_group_iva_19"/>
+        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_netas_gr_iva_uso_comun')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_uso_comun')],
+                'account_id': ref('inv_acct_especifico'),
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_netas_gr_iva_uso_comun')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_uso_comun')],
+                'account_id': ref('inv_acct_especifico'),
+            }),
+        ]"/>
+    </record>
+
+    <record id="inv_iva_supermercado_recup" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+        <field name="name">IVA Compra 19% Superm.</field>
+        <field name="description">IVA 19% SupMRec</field>
+        <field name="amount">19</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="l10n_cl_sii_code">14</field>
+        <field name="sequence" eval="6"/>
+        <field name="tax_group_id" ref="l10n_cl.tax_group_iva_19"/>
+        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_supermercado')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'plus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_supermercado')],
+                'account_id': ref('inv_acct_iva_credito'),
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_supermercado')],
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+                'minus_report_line_ids': [ref('l10n_cl.tax_report_compras_iva_supermercado')],
+                'account_id': ref('inv_acct_iva_credito'),
+            }),
+        ]"/>
+    </record>
+</odoo>

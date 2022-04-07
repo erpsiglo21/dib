@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_cl_dib_comercial" model="account.chart.template">
+        <field name="name">DiB - Plan de Cuentas Comercial</field>
+        <field name="cash_account_code_prefix">1101</field>
+        <field name="bank_account_code_prefix">1102</field>
+        <field name="transfer_account_code_prefix">1401</field>
+        <field name="code_digits">6</field>
+        <field name="currency_id" ref="base.CLP"/>
+        <field name="use_anglo_saxon" eval="True" />
+    </record>
+    <record id="l10n_cl_dib_inmobiliaria" model="account.chart.template">
+        <field name="name">DiB - Plan de Cuentas Inmobiliaria</field>
+        <field name="cash_account_code_prefix">110101</field>
+        <field name="bank_account_code_prefix">110102</field>
+        <field name="transfer_account_code_prefix">140301</field>
+        <field name="code_digits">8</field>
+        <field name="currency_id" ref="base.CLP"/>
+        <field name="use_anglo_saxon" eval="True" />
+    </record>
+    <record id="l10n_cl_dib_inversiones" model="account.chart.template">
+        <field name="name">DiB - Plan de Cuentas Inversiones</field>
+        <field name="cash_account_code_prefix">1101</field>
+        <field name="bank_account_code_prefix">1102</field>
+        <field name="transfer_account_code_prefix">1501</field>
+        <field name="code_digits">6</field>
+        <field name="currency_id" ref="base.CLP"/>
+        <field name="use_anglo_saxon" eval="True" />
+    </record>
+</odoo>

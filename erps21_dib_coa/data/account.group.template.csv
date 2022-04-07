@@ -1,0 +1,254 @@
+id,code_prefix_start,code_prefix_end,name,chart_template_id/id
+com_grp_1,"1",,"ACTIVO",l10n_cl_dib_comercial
+com_grp_11,"11",,"ACTIVO CIRCULANTE",l10n_cl_dib_comercial
+com_grp_1101,"1101",,"CAJA",l10n_cl_dib_comercial
+com_grp_1102,"1102",,"BANCOS",l10n_cl_dib_comercial
+com_grp_1103,"1103",,"MONEDA EXTRANJERA",l10n_cl_dib_comercial
+com_grp_1104,"1104",,"DOCUMENTOS EN CARTERA",l10n_cl_dib_comercial
+com_grp_1105,"1105",,"DOCUMENTOS EN COBRANZA",l10n_cl_dib_comercial
+com_grp_1106,"1106",,"INTEREMPRESAS",l10n_cl_dib_comercial
+com_grp_1107,"1107",,"DOCUMENTOS POR COBRAR",l10n_cl_dib_comercial
+com_grp_1108,"1108",,"TARJETAS DE CREDITO",l10n_cl_dib_comercial
+com_grp_1109,"1109",,"PTMOS Y ANTICIPOS AL PERSONAL",l10n_cl_dib_comercial
+com_grp_111,"111",,"OTROS",l10n_cl_dib_comercial
+com_grp_1111,"1111",,"MERCADERIAS",l10n_cl_dib_comercial
+com_grp_1112,"1112",,"CUENTAS POR COBRAR",l10n_cl_dib_comercial
+com_grp_1113,"1113",,"IMPUESTOS",l10n_cl_dib_comercial
+com_grp_1114,"1114",,"DOCUMENTOS PROTESTADOS",l10n_cl_dib_comercial
+com_grp_1115,"1115",,"INVERSIONES FINANCIERAS",l10n_cl_dib_comercial
+com_grp_1118,"1118",,"GASTOS ANTICIPADOS",l10n_cl_dib_comercial
+com_grp_112,"112",,"GARANTIAS",l10n_cl_dib_comercial
+com_grp_12,"12",,"ACTIVO FIJO",l10n_cl_dib_comercial
+com_grp_1201,"1201",,"VEHICULOS",l10n_cl_dib_comercial
+com_grp_1202,"1202",,"MAQUINARIA",l10n_cl_dib_comercial
+com_grp_1203,"1203",,"MUEBLES Y UTILES",l10n_cl_dib_comercial
+com_grp_1204,"1204",,"INSTALACIONES",l10n_cl_dib_comercial
+com_grp_13,"13",,"OTROS ACTIVOS",l10n_cl_dib_comercial
+com_grp_2,"2",,"PASIVOS",l10n_cl_dib_comercial
+com_grp_21,"21",,"PASIVO EXIGIBLE",l10n_cl_dib_comercial
+com_grp_2101,"2101",,"CREDITOS BANCARIOS",l10n_cl_dib_comercial
+com_grp_2102,"2102",,"CARTAS DE CREDITO",l10n_cl_dib_comercial
+com_grp_2103,"2103",,"COBRANZAS",l10n_cl_dib_comercial
+com_grp_2104,"2104",,"CUENTAS VARIAS POR PAGAR",l10n_cl_dib_comercial
+com_grp_2105,"2105",,"OTRAS CUENTAS POR PAGAR",l10n_cl_dib_comercial
+com_grp_2106,"2106",,"IMPUESTOS Y RETENCIONES",l10n_cl_dib_comercial
+com_grp_2107,"2107",,"PROVISIONES",l10n_cl_dib_comercial
+com_grp_22,"22",,"PASIVO NO EXIGIBLE",l10n_cl_dib_comercial
+com_grp_2201,"2201",,"PATRIMONIO",l10n_cl_dib_comercial
+com_grp_2202,"2202",,"RESERVAS DE REVALORIZACION",l10n_cl_dib_comercial
+com_grp_2204,"2204",,"CUENTAS PARTICULARES",l10n_cl_dib_comercial
+com_grp_2205,"2205",,"REVALORIZACION TRIBUTARIA",l10n_cl_dib_comercial
+com_grp_3,"3",,"GANANCIAS",l10n_cl_dib_comercial
+com_grp_31,"31",,"INGRESOS",l10n_cl_dib_comercial
+com_grp_3101,"3101",,"INGRESOS OPERACIONALES",l10n_cl_dib_comercial
+com_grp_3102,"3102",,"INGRESOS NO OPERACIONALES",l10n_cl_dib_comercial
+com_grp_3103,"3103",,"CORRECION MONETARIA",l10n_cl_dib_comercial
+com_grp_4,"4",,"PERDIDAS",l10n_cl_dib_comercial
+com_grp_41,"41",,"GASTOS",l10n_cl_dib_comercial
+com_grp_4101,"4101",,"GASTOS OPERACIONALES",l10n_cl_dib_comercial
+com_grp_4102,"4102",,"COSTO DE VENTA",l10n_cl_dib_comercial
+com_grp_4103,"4103",,"CORRECCION MONETARIA",l10n_cl_dib_comercial
+com_grp_4104,"4104",,"DIFERENCIA DE CAMBIO",l10n_cl_dib_comercial
+com_grp_42,"42",,"GASTOS NO OPERACIONALES",l10n_cl_dib_comercial
+com_grp_4201,"4201",,"GASTOS FINANCIEROS",l10n_cl_dib_comercial
+com_grp_44,"44",,"IMPUESTO A LA RENTA",l10n_cl_dib_comercial
+com_grp_4401,"4401",,"IMPUESTO A LA RENTA",l10n_cl_dib_comercial
+com_grp_5,"5",,"CUENTAS DE ORDEN",l10n_cl_dib_comercial
+com_grp_51,"51",,"ORDEN DEBE",l10n_cl_dib_comercial
+com_grp_52,"52",,"ORDEN HABER",l10n_cl_dib_comercial
+imb_grp_1,"1",,"Activos",l10n_cl_dib_inmobiliaria
+imb_grp_11,"11",,"Activos Circulante",l10n_cl_dib_inmobiliaria
+imb_grp_1101,"1101",,"Disponible",l10n_cl_dib_inmobiliaria
+imb_grp_110101,"110101",,"Caja",l10n_cl_dib_inmobiliaria
+imb_grp_110102,"110102",,"Bancos",l10n_cl_dib_inmobiliaria
+imb_grp_110103,"110103",,"Fondos Disponibles",l10n_cl_dib_inmobiliaria
+imb_grp_1102,"1102",,"Deudores por Venta",l10n_cl_dib_inmobiliaria
+imb_grp_110201,"110201",,"Clientes",l10n_cl_dib_inmobiliaria
+imb_grp_110203,"110203",,"Fondos Mutuos",l10n_cl_dib_inmobiliaria
+imb_grp_1103,"1103",,"Documentos por Cobrar",l10n_cl_dib_inmobiliaria
+imb_grp_110301,"110301",,"Documentos por Cobrar",l10n_cl_dib_inmobiliaria
+imb_grp_1104,"1104",,"Deudores Varios",l10n_cl_dib_inmobiliaria
+imb_grp_110401,"110401",,"Cuentas Corrientes Del Persona",l10n_cl_dib_inmobiliaria
+imb_grp_110402,"110402",,"Anticipos Proveedores",l10n_cl_dib_inmobiliaria
+imb_grp_110403,"110403",,"Anticipos Subcontratistas",l10n_cl_dib_inmobiliaria
+imb_grp_110404,"110404",,"Fondos por Rendir",l10n_cl_dib_inmobiliaria
+imb_grp_110405,"110405",,"Garantias por Recuperar",l10n_cl_dib_inmobiliaria
+imb_grp_110406,"110406",,"Deudores Varios",l10n_cl_dib_inmobiliaria
+imb_grp_1105,"1105",,"Empresas Relacionadas",l10n_cl_dib_inmobiliaria
+imb_grp_110501,"110501",,"Doctos por Cobrar Er",l10n_cl_dib_inmobiliaria
+imb_grp_110502,"110502",,"Cuentas por Cobrar Er",l10n_cl_dib_inmobiliaria
+imb_grp_110503,"110503",,"Cuentas Corrientes Mercantiles",l10n_cl_dib_inmobiliaria
+imb_grp_1106,"1106",,"Existencias",l10n_cl_dib_inmobiliaria
+imb_grp_110601,"110601",,"Existencias",l10n_cl_dib_inmobiliaria
+imb_grp_1107,"1107",,"Proyectos en Ejecucion",l10n_cl_dib_inmobiliaria
+imb_grp_110701,"110701",,"Arquitectura",l10n_cl_dib_inmobiliaria
+imb_grp_110702,"110702",,"Calculo Estructural",l10n_cl_dib_inmobiliaria
+imb_grp_110703,"110703",,"Especialidades",l10n_cl_dib_inmobiliaria
+imb_grp_110704,"110704",,"Inspeccion Tecnica",l10n_cl_dib_inmobiliaria
+imb_grp_110705,"110705",,"Comercializacion",l10n_cl_dib_inmobiliaria
+imb_grp_110706,"110706",,"Sala de venta y piloto",l10n_cl_dib_inmobiliaria
+imb_grp_110707,"110707",,"Habilitación áreas comunes",l10n_cl_dib_inmobiliaria
+imb_grp_110708,"110708",,"Permisos Municipales",l10n_cl_dib_inmobiliaria
+imb_grp_110709,"110709",,"Administración proyecto",l10n_cl_dib_inmobiliaria
+imb_grp_11071,"11071",,"Mantención de Stock",l10n_cl_dib_inmobiliaria
+imb_grp_110711,"110711",,"Costos Financieros",l10n_cl_dib_inmobiliaria
+imb_grp_110712,"110712",,"Otros Varios",l10n_cl_dib_inmobiliaria
+imb_grp_1108,"1108",,"Impuestos por Recuperar",l10n_cl_dib_inmobiliaria
+imb_grp_110801,"110801",,"Creditos al Impuesto Renta",l10n_cl_dib_inmobiliaria
+imb_grp_110802,"110802",,"Creditos Mensuales",l10n_cl_dib_inmobiliaria
+imb_grp_1109,"1109",,"Gastos Pagados por Anticipado",l10n_cl_dib_inmobiliaria
+imb_grp_110901,"110901",,"Gastos Pagados por Anticipado",l10n_cl_dib_inmobiliaria
+imb_grp_111,"111",,"Otros Activos Circulantes",l10n_cl_dib_inmobiliaria
+imb_grp_111101,"111101",,"Otros Activos Circulantes",l10n_cl_dib_inmobiliaria
+imb_grp_111201,"111201",,"Contratos de Leasing",l10n_cl_dib_inmobiliaria
+imb_grp_12,"12",,"Activos Fijos",l10n_cl_dib_inmobiliaria
+imb_grp_1201,"1201",,"Terrenos",l10n_cl_dib_inmobiliaria
+imb_grp_120101,"120101",,"Terrenos",l10n_cl_dib_inmobiliaria
+imb_grp_1202,"1202",,"Otros Activos Fijos",l10n_cl_dib_inmobiliaria
+imb_grp_120201,"120201",,"Muebles y Equipos",l10n_cl_dib_inmobiliaria
+imb_grp_120202,"120202",,"Tecnologia Informacion y Comun",l10n_cl_dib_inmobiliaria
+imb_grp_120202,"120202",,"Tecnologia Informacion y Comun",l10n_cl_dib_inmobiliaria
+imb_grp_120203,"120203",,"Otros Activos Fijos",l10n_cl_dib_inmobiliaria
+imb_grp_1203,"1203",,"Ajuste Valor por Retasacion Te",l10n_cl_dib_inmobiliaria
+imb_grp_120301,"120301",,"Ajuste Valor por Retasacion Te",l10n_cl_dib_inmobiliaria
+imb_grp_1204,"1204",,"Depreciacion (Menos)",l10n_cl_dib_inmobiliaria
+imb_grp_120401,"120401",,"Dep. Vehiculos",l10n_cl_dib_inmobiliaria
+imb_grp_120402,"120402",,"Dep. Muebles y Equipos",l10n_cl_dib_inmobiliaria
+imb_grp_120403,"120403",,"Dep. Tecnologia",l10n_cl_dib_inmobiliaria
+imb_grp_1205,"1205",,"Activos en Leasing",l10n_cl_dib_inmobiliaria
+imb_grp_120501,"120501",,"Activos en Leasing",l10n_cl_dib_inmobiliaria
+imb_grp_13,"13",,"Otros Activos",l10n_cl_dib_inmobiliaria
+imb_grp_1301,"1301",,"Inversiones en Empresas Relac",l10n_cl_dib_inmobiliaria
+imb_grp_130101,"130101",,"Inversiones en Empresas Relac",l10n_cl_dib_inmobiliaria
+imb_grp_1302,"1302",,"Deudores Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_130201,"130201",,"Deudores Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_1303,"1303",,"Documentos y Cuentas por Cobra",l10n_cl_dib_inmobiliaria
+imb_grp_130301,"130301",,"Cuentas por Cobrar Empresas Re",l10n_cl_dib_inmobiliaria
+imb_grp_1304,"1304",,"Impuestos Diferidos a Largo Pl",l10n_cl_dib_inmobiliaria
+imb_grp_130401,"130401",,"Impuestos Diferidos a Largo Pl",l10n_cl_dib_inmobiliaria
+imb_grp_1305,"1305",,"Intangibles",l10n_cl_dib_inmobiliaria
+imb_grp_130501,"130501",,"Licencias Software",l10n_cl_dib_inmobiliaria
+imb_grp_1306,"1306",,"Amortizacion (Menos)",l10n_cl_dib_inmobiliaria
+imb_grp_130601,"130601",,"Amortizacion Acumulada",l10n_cl_dib_inmobiliaria
+imb_grp_1307,"1307",,"Intereses Diferidos",l10n_cl_dib_inmobiliaria
+imb_grp_130701,"130701",,"Intereses Diferidos",l10n_cl_dib_inmobiliaria
+imb_grp_14,"14",,"Cuentas de Orden",l10n_cl_dib_inmobiliaria
+imb_grp_1401,"1401",,"Documentos en Garantia",l10n_cl_dib_inmobiliaria
+imb_grp_140101,"140101",,"Boletas de Garantia",l10n_cl_dib_inmobiliaria
+imb_grp_140102,"140102",,"Cheques en Garantia",l10n_cl_dib_inmobiliaria
+imb_grp_1402,"1402",,"Otras Garantias",l10n_cl_dib_inmobiliaria
+imb_grp_140201,"140201",,"Otras Garantias",l10n_cl_dib_inmobiliaria
+imb_grp_2,"2",,"Pasivo",l10n_cl_dib_inmobiliaria
+imb_grp_21,"21",,"Pasivo Circulante",l10n_cl_dib_inmobiliaria
+imb_grp_2101,"2101",,"Obligaciones Con Bancos e Inst",l10n_cl_dib_inmobiliaria
+imb_grp_210101,"210101",,"Obligaciones Con Bancos a Cort",l10n_cl_dib_inmobiliaria
+imb_grp_210102,"210102",,"Lineas de Credito",l10n_cl_dib_inmobiliaria
+imb_grp_210103,"210103",,"Tarjeta de Credito",l10n_cl_dib_inmobiliaria
+imb_grp_2102,"2102",,"Dividendos por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_210201,"210201",,"Dividendos por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_2103,"2103",,"Cuentas por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_210301,"210301",,"Anticipo Clientes",l10n_cl_dib_inmobiliaria
+imb_grp_210302,"210302",,"Otras Cuentas Por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_2104,"2104",,"Documentos por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_210401,"210401",,"Documentos por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_2105,"2105",,"Acreedores Varios",l10n_cl_dib_inmobiliaria
+imb_grp_210501,"210501",,"Acreedores Varios",l10n_cl_dib_inmobiliaria
+imb_grp_2106,"2106",,"Documentos y Cuentas por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_210601,"210601",,"Cuentas Corrientes Mercantiles",l10n_cl_dib_inmobiliaria
+imb_grp_2107,"2107",,"Provisiones",l10n_cl_dib_inmobiliaria
+imb_grp_210701,"210701",,"Provisiones",l10n_cl_dib_inmobiliaria
+imb_grp_2108,"2108",,"Retenciones",l10n_cl_dib_inmobiliaria
+imb_grp_210801,"210801",,"Impuestos por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_210802,"210802",,"Remuneraciones por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_210803,"210803",,"Retenciones Previsionales",l10n_cl_dib_inmobiliaria
+imb_grp_210804,"210804",,"Retenciones Otros profesionale",l10n_cl_dib_inmobiliaria
+imb_grp_210805,"210805",,"Otras Retenciones",l10n_cl_dib_inmobiliaria
+imb_grp_2109,"2109",,"Impuesto a La Renta",l10n_cl_dib_inmobiliaria
+imb_grp_210901,"210901",,"Impuesto a La Renta",l10n_cl_dib_inmobiliaria
+imb_grp_211,"211",,"Impuestos Diferidos",l10n_cl_dib_inmobiliaria
+imb_grp_211,"211",,"Impuestos Diferidos",l10n_cl_dib_inmobiliaria
+imb_grp_2111,"2111",,"Otros Pasivos Circulantes",l10n_cl_dib_inmobiliaria
+imb_grp_211101,"211101",,"Facturas por Recibir",l10n_cl_dib_inmobiliaria
+imb_grp_21121,"21121",,"Otros Pasivos Circulantes",l10n_cl_dib_inmobiliaria
+imb_grp_22,"22",,"Pasivo a Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_2201,"2201",,"Obligaciones Con Bancos e Inst",l10n_cl_dib_inmobiliaria
+imb_grp_220101,"220101",,"Obligaciones Con Bancos e Inst",l10n_cl_dib_inmobiliaria
+imb_grp_2202,"2202",,"Documentos por Pagar Largo Pla",l10n_cl_dib_inmobiliaria
+imb_grp_220201,"220201",,"Documentos por Pagar Largo Pla",l10n_cl_dib_inmobiliaria
+imb_grp_2203,"2203",,"Acreedores Varios Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_220301,"220301",,"Acreedores Varios Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_2204,"2204",,"Documentos y Cuentas por Pagar",l10n_cl_dib_inmobiliaria
+imb_grp_220401,"220401",,"Cuentas por Pagar en Empresas",l10n_cl_dib_inmobiliaria
+imb_grp_2205,"2205",,"Provisiones Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_2206,"2206",,"Impuestos Diferidos a Largo Pl",l10n_cl_dib_inmobiliaria
+imb_grp_220601,"220601",,"Impuestos Diferidos a Largo Pl",l10n_cl_dib_inmobiliaria
+imb_grp_2207,"2207",,"Otros Pasivos a Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_220701,"220701",,"Otros Pasivos a Largo Plazo",l10n_cl_dib_inmobiliaria
+imb_grp_23,"23",,"Cuentas de Orden",l10n_cl_dib_inmobiliaria
+imb_grp_2301,"2301",,"Documentos en Garantia",l10n_cl_dib_inmobiliaria
+imb_grp_230102,"230102",,"Cheques en Garantia",l10n_cl_dib_inmobiliaria
+imb_grp_2302,"2302",,"Otros",l10n_cl_dib_inmobiliaria
+imb_grp_230201,"230201",,"Otros",l10n_cl_dib_inmobiliaria
+imb_grp_24,"24",,"Patrimonio",l10n_cl_dib_inmobiliaria
+imb_grp_2401,"2401",,"Capital",l10n_cl_dib_inmobiliaria
+imb_grp_240101,"240101",,"Capital Pagado",l10n_cl_dib_inmobiliaria
+imb_grp_2402,"2402",,"Reserva Revalorizacion Capital",l10n_cl_dib_inmobiliaria
+imb_grp_240201,"240201",,"Reserva Revalorizacion Capital",l10n_cl_dib_inmobiliaria
+imb_grp_2403,"2403",,"Sobreprecio en Venta Acciones",l10n_cl_dib_inmobiliaria
+imb_grp_240301,"240301",,"Sobreprecio en Venta Acciones",l10n_cl_dib_inmobiliaria
+imb_grp_2404,"2404",,"Otras Reservas",l10n_cl_dib_inmobiliaria
+imb_grp_240401,"240401",,"Otras Reservas",l10n_cl_dib_inmobiliaria
+imb_grp_2505,"2505",,"Utilidades Retenidas",l10n_cl_dib_inmobiliaria
+imb_grp_250501,"250501",,"Reserva Futuros Dividendos",l10n_cl_dib_inmobiliaria
+imb_grp_250502,"250502",,"Utilidades Acumuladas",l10n_cl_dib_inmobiliaria
+imb_grp_250503,"250503",,"Perdidas Acumuladas (Menos)",l10n_cl_dib_inmobiliaria
+imb_grp_250504,"250504",,"Utilidad (Perdida) Del Ejercic",l10n_cl_dib_inmobiliaria
+imb_grp_250505,"250505",,"Dividendos Provisorios (Menos)",l10n_cl_dib_inmobiliaria
+inv_grp_1,"1",,"ACTIVOS",l10n_cl_dib_inversiones
+inv_grp_11,"11",,"DISPONIBLES",l10n_cl_dib_inversiones
+inv_grp_1101,"1101",,"EFECTIVOS",l10n_cl_dib_inversiones
+inv_grp_1103,"1103",,"CORREDORAS FINANCIERAS US$",l10n_cl_dib_inversiones
+inv_grp_1104,"1104",,"CORREDORAS FINANCIERAS MN",l10n_cl_dib_inversiones
+inv_grp_1105,"1105",,"VALORES NEGOCIALES M.N",l10n_cl_dib_inversiones
+inv_grp_1106,"1106",,"VALORES NEGOCIABLES EN M.E.",l10n_cl_dib_inversiones
+inv_grp_12,"12",,"DOCUMENTOS POR COBRAR",l10n_cl_dib_inversiones
+inv_grp_1201,"1201",,"DOCUMENTOS POR COBRAR",l10n_cl_dib_inversiones
+inv_grp_1202,"1202",,"DEUDORES POR VENTA",l10n_cl_dib_inversiones
+inv_grp_1203,"1203",,"OTRAS CUENTAS POR COBRAR",l10n_cl_dib_inversiones
+inv_grp_1204,"1204",,"CTA. CTE. EMPRESAS RELACIONADAS",l10n_cl_dib_inversiones
+inv_grp_1205,"1205",,"IMPUESTOS POR RECUPERAR",l10n_cl_dib_inversiones
+inv_grp_1206,"1206",,"GARANTIAS",l10n_cl_dib_inversiones
+inv_grp_13,"13",,"ACTIVO FIJO",l10n_cl_dib_inversiones
+inv_grp_1301,"1301",,"BINES RAICES",l10n_cl_dib_inversiones
+inv_grp_1302,"1302",,"TERRENOS",l10n_cl_dib_inversiones
+inv_grp_1303,"1303",,"ACTIVOS EN LEASING",l10n_cl_dib_inversiones
+inv_grp_1304,"1304",,"MAQUINAS Y EQUIPOS",l10n_cl_dib_inversiones
+inv_grp_1305,"1305",,"PROYECTO EDIFICIO OFICINAS VIANA",l10n_cl_dib_inversiones
+inv_grp_1306,"1306",,"ACTIVOS INTANGIBLES",l10n_cl_dib_inversiones
+inv_grp_14,"14",,"INVERSION OTRAS SOCIEDADES",l10n_cl_dib_inversiones
+inv_grp_1401,"1401",,"DERECHOS SOCIALES",l10n_cl_dib_inversiones
+inv_grp_2,"2",,"PASIVOS Y PATRIMONIOS",l10n_cl_dib_inversiones
+inv_grp_21,"21",,"PASIVOS",l10n_cl_dib_inversiones
+inv_grp_2101,"2101",,"OBLIGACIONES BANCARIAS",l10n_cl_dib_inversiones
+inv_grp_2102,"2102",,"CUENTAS POR PAGAR",l10n_cl_dib_inversiones
+inv_grp_2103,"2103",,"RETENCIONES",l10n_cl_dib_inversiones
+inv_grp_2104,"2104",,"ACREEDORES VARIOS",l10n_cl_dib_inversiones
+inv_grp_2105,"2105",,"PROVISIONES VARIAS",l10n_cl_dib_inversiones
+inv_grp_22,"22",,"PATRIMONIO",l10n_cl_dib_inversiones
+inv_grp_2201,"2201",,"CAPITAL Y PATRIMONIO",l10n_cl_dib_inversiones
+inv_grp_3,"3",,"INGRESOS",l10n_cl_dib_inversiones
+inv_grp_31,"31",,"OPERACIONAL",l10n_cl_dib_inversiones
+inv_grp_3101,"3101",,"INGRESOS OPERACIONALES",l10n_cl_dib_inversiones
+inv_grp_3102,"3102",,"INGRESOS OTRAS SOCIEDADES",l10n_cl_dib_inversiones
+inv_grp_3103,"3103",,"INGRESOS INVERSIONES M.E.",l10n_cl_dib_inversiones
+inv_grp_4,"4",,"GASTOS Y PERDIDAS",l10n_cl_dib_inversiones
+inv_grp_4101,"4101",,"GASTOS OPERACIONALES",l10n_cl_dib_inversiones
+inv_grp_4102,"4102",,"COSTOS Y PERDIDAS",l10n_cl_dib_inversiones
+inv_grp_42,"42",,"GASTOS Y PERDIDAS POR VALORES NEGOCI",l10n_cl_dib_inversiones
+inv_grp_4202,"4202",,"CORRECCION MONETARIA",l10n_cl_dib_inversiones
+inv_grp_4206,"4206",,"PERDIDAS INVERSIONES M.N.",l10n_cl_dib_inversiones
+inv_grp_4207,"4207",,"PERDIDAS INVERSIONES M.E.",l10n_cl_dib_inversiones
+inv_grp_4208,"4208",,"PERDIDAS DESDE OTRAS SOCIEDADES",l10n_cl_dib_inversiones
+inv_grp_5,"5",,"Impuesto a la Renta",l10n_cl_dib_inversiones
+inv_grp_51,"51",,"Renta",l10n_cl_dib_inversiones
+inv_grp_5101,"5101",,"Renta",l10n_cl_dib_inversiones

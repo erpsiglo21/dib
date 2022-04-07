@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_cl_dib_comercial" model="account.chart.template">
+        <field name="property_account_receivable_id" ref="com_acct_receivable"/>
+        <field name="property_account_payable_id" ref="com_acct_payable"/>
+        <field name="property_account_expense_categ_id" ref="com_acct_expense_categ"/>
+        <field name="property_account_income_categ_id" ref="com_acct_income_categ"/>
+        <field name="expense_currency_exchange_account_id" ref="com_acct_expense_currency"/>
+        <field name="income_currency_exchange_account_id" ref="com_acct_expense_currency"/>
+    </record>
+    <record id="l10n_cl_dib_inmobiliaria" model="account.chart.template">
+        <field name="property_account_receivable_id" ref="imb_acct_receivable"/>
+        <field name="property_account_payable_id" ref="imb_acct_payable"/>
+        <field name="property_account_expense_categ_id" ref="imb_acct_expense_categ"/>
+        <field name="property_account_income_categ_id" ref="imb_acct_income_categ"/>
+        <field name="expense_currency_exchange_account_id" ref="imb_acct_expense_currency"/>
+        <field name="income_currency_exchange_account_id" ref="imb_acct_expense_currency"/>
+    </record>
+    <record id="l10n_cl_dib_inversiones" model="account.chart.template">
+        <field name="property_account_receivable_id" ref="inv_acct_receivable"/>
+    </record>
+</odoo>
