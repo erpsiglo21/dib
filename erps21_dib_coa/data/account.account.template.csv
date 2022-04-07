@@ -1,0 +1,866 @@
+id,chart_template_id/id,code,user_type_id/id,name,reconcile
+com_acct_110101,l10n_cl_dib_comercial,"110101",account.data_account_type_liquidity,"CAJA MATRIZ",True
+com_acct_110105,l10n_cl_dib_comercial,"110105",account.data_account_type_current_assets,"FONDOS FIJOS",False
+com_acct_110106,l10n_cl_dib_comercial,"110106",account.data_account_type_current_assets,"F FIJOS TIENDAS",False
+com_acct_110199,l10n_cl_dib_comercial,"110199",account.data_account_type_current_assets,"FDO.LIQ. DE PAGOS AL DIA",False
+com_acct_110202,l10n_cl_dib_comercial,"110202",account.data_account_type_liquidity,"BANCO SANTANDER",True
+com_acct_110204,l10n_cl_dib_comercial,"110204",account.data_account_type_liquidity,"BANCO DE CHILE",True
+com_acct_110205,l10n_cl_dib_comercial,"110205",account.data_account_type_liquidity,"BANCO CREDITO",True
+com_acct_110206,l10n_cl_dib_comercial,"110206",account.data_account_type_liquidity,"BCI TIENDAS",True
+com_acct_110207,l10n_cl_dib_comercial,"110207",account.data_account_type_liquidity,"CORPBANCA",True
+com_acct_110208,l10n_cl_dib_comercial,"110208",account.data_account_type_liquidity,"BBVA",True
+com_acct_110209,l10n_cl_dib_comercial,"110209",account.data_account_type_liquidity,"BANCO ESTADO",True
+com_acct_110222,l10n_cl_dib_comercial,"110222",account.data_account_type_liquidity,"BANCO SANTANDER US$",True
+com_acct_110223,l10n_cl_dib_comercial,"110223",account.data_account_type_liquidity,"BANCO BBVA US$",True
+com_acct_110225,l10n_cl_dib_comercial,"110225",account.data_account_type_liquidity,"BCI US$",True
+com_acct_110299,l10n_cl_dib_comercial,"110299",account.data_account_type_liquidity,"FONDO PAGOS ELECTRONICOS",True
+com_acct_110304,l10n_cl_dib_comercial,"110304",account.data_account_type_liquidity,"MONEDA EXTRANJERA",True
+com_acct_110305,l10n_cl_dib_comercial,"110305",account.data_account_type_liquidity,"MONEDA EXTRANJERA EUROS",True
+com_acct_110401,l10n_cl_dib_comercial,"110401",account.data_account_type_receivable,"CHEQUES EN PESOS",True
+com_acct_110402,l10n_cl_dib_comercial,"110402",account.data_account_type_receivable,"CHEQUES EN USD",True
+com_acct_110503,l10n_cl_dib_comercial,"110503",account.data_account_type_receivable,"DTOS EN COB BANCO CREDITO",True
+com_acct_110601,l10n_cl_dib_comercial,"110601",account.data_account_type_receivable,"BELLAVISTA S.A DE INVERSIONE",True
+com_acct_110602,l10n_cl_dib_comercial,"110602",account.data_account_type_receivable,"COMERCIAL DECOSTORE LTDA",True
+com_acct_110603,l10n_cl_dib_comercial,"110603",account.data_account_type_receivable,"COMERCIAL EUROHOGAR LTDA",True
+com_acct_110604,l10n_cl_dib_comercial,"110604",account.data_account_type_receivable,"INTEREMPRESA DECOEXPRESS",True
+com_acct_110605,l10n_cl_dib_comercial,"110605",account.data_account_type_receivable,"CUENTA CORRIENTE GULLDEMAR",True
+com_acct_receivable,l10n_cl_dib_comercial,"110705",account.data_account_type_receivable,"FACTURAS X COBRAR",True
+com_acct_110706,l10n_cl_dib_comercial,"110706",account.data_account_type_receivable,"FACTURAS X COBRAR Z FRANCA",True
+com_acct_110707,l10n_cl_dib_comercial,"110707",account.data_account_type_receivable,"FACTURAS X COBRAR EERR",True
+com_acct_110708,l10n_cl_dib_comercial,"110708",account.data_account_type_receivable,"FACTURAS X COBRAR EXPORTACIO",True
+com_acct_110709,l10n_cl_dib_comercial,"110709",account.data_account_type_receivable,"DESCUENTOS CLIENTES",True
+com_acct_110710,l10n_cl_dib_comercial,"110710",account.data_account_type_receivable,"CLIENTES VALORES POR RECUPER",True
+com_acct_110711,l10n_cl_dib_comercial,"110711",account.data_account_type_receivable,"CTA CTE CUPONES",True
+com_acct_110712,l10n_cl_dib_comercial,"110712",account.data_account_type_receivable,"CUPONES GRUPUN (NEEDISH)",True
+com_acct_110794,l10n_cl_dib_comercial,"110794",account.data_account_type_receivable,"CANJE AGENCIA DE ADUANAS",True
+com_acct_110795,l10n_cl_dib_comercial,"110795",account.data_account_type_receivable,"CTA. CTE. BARTER HOUSE DIB",True
+com_acct_110796,l10n_cl_dib_comercial,"110796",account.data_account_type_receivable,"CANJE DEVOLUCION CLIENTES",True
+com_acct_110797,l10n_cl_dib_comercial,"110797",account.data_account_type_receivable,"CANJES EMPLEADOS",True
+com_acct_110798,l10n_cl_dib_comercial,"110798",account.data_account_type_receivable,"CANJE CLIENTE PROVEEDOR",True
+com_acct_110799,l10n_cl_dib_comercial,"110799",account.data_account_type_receivable,"CANJE PROV F FIJOS",True
+com_acct_110801,l10n_cl_dib_comercial,"110801",account.data_account_type_receivable,"TARJ TRANSBANK NS",True
+com_acct_110802,l10n_cl_dib_comercial,"110802",account.data_account_type_receivable,"TARJETAS DE CREDITO",True
+com_acct_110803,l10n_cl_dib_comercial,"110803",account.data_account_type_receivable,"MERC PAGO WEB BAZHARS",True
+com_acct_110804,l10n_cl_dib_comercial,"110804",account.data_account_type_receivable,"MERCADO PAGO WEB DIB",True
+com_acct_110805,l10n_cl_dib_comercial,"110805",account.data_account_type_receivable,"MERCADO LIBRE DIB",True
+com_acct_110806,l10n_cl_dib_comercial,"110806",account.data_account_type_receivable,"MERCADO LIBRE BAZHARS",True
+com_acct_110808,l10n_cl_dib_comercial,"110808",account.data_account_type_receivable,"MARKET PLACE",True
+com_acct_110840,l10n_cl_dib_comercial,"110840",account.data_account_type_receivable,"TARJETAS RIPLEY",True
+com_acct_110894,l10n_cl_dib_comercial,"110894",account.data_account_type_receivable,"MERCADO LIBRE ACUMULADOR",True
+com_acct_110895,l10n_cl_dib_comercial,"110895",account.data_account_type_receivable,"MERCADO PAGO WEB BAZHARS ACUMU",True
+com_acct_110896,l10n_cl_dib_comercial,"110896",account.data_account_type_receivable,"MERCADO PAGO WEB DIB ACUMULAD",True
+com_acct_110897,l10n_cl_dib_comercial,"110897",account.data_account_type_receivable,"ANULAC VTS TARJ CUOTAS",True
+com_acct_110898,l10n_cl_dib_comercial,"110898",account.data_account_type_receivable,"AC VTS KIPPO",True
+com_acct_110899,l10n_cl_dib_comercial,"110899",account.data_account_type_receivable,"ACUMULADOR DEPOSITOS T/CREDITO",True
+com_acct_110901,l10n_cl_dib_comercial,"110901",account.data_account_type_receivable,"PRESTAMOS Y ANTICIPOS AL PER",True
+com_acct_110902,l10n_cl_dib_comercial,"110902",account.data_account_type_receivable,"FONDO EMPLEADOS",True
+com_acct_110903,l10n_cl_dib_comercial,"110903",account.data_account_type_non_current_assets,"ANTICIPOS INDEMNIZACIONES",False
+com_acct_110905,l10n_cl_dib_comercial,"110905",account.data_account_type_receivable,"PRESTAMOS OTORGADOS",True
+com_acct_110999,l10n_cl_dib_comercial,"110999",account.data_account_type_receivable,"CANJE PRESTAMOS PERSONAL",True
+com_acct_111001,l10n_cl_dib_comercial,"111001",account.data_account_type_receivable,"CARGOS EN TRANSITO $",True
+com_acct_111002,l10n_cl_dib_comercial,"111002",account.data_account_type_receivable,"CARGOS EN TRANSITO US$",True
+com_acct_111101,l10n_cl_dib_comercial,"111101",account.data_account_type_current_assets,"MERCADERIAS",False
+com_acct_111102,l10n_cl_dib_comercial,"111102",account.data_account_type_current_assets,"REVALORIZACION MERCADERIAS",False
+com_acct_111105,l10n_cl_dib_comercial,"111105",account.data_account_type_current_assets,"MERCADERIAS EN TRANSITO",False
+com_acct_111108,l10n_cl_dib_comercial,"111108",account.data_account_type_current_assets,"DIFERENCIA REMISIONES",False
+com_acct_111201,l10n_cl_dib_comercial,"111201",account.data_account_type_current_liabilities,"ANTICIPOS PROVEEDORES EN PESOS",False
+com_acct_111202,l10n_cl_dib_comercial,"111202",account.data_account_type_current_liabilities,"ANTICIPOS PROVEEDORES EN USD",False
+com_acct_111209,l10n_cl_dib_comercial,"111209",account.data_account_type_receivable,"VALORES X REFACTURAR",True
+com_acct_111210,l10n_cl_dib_comercial,"111210",account.data_account_type_receivable,"VALORES POR RECUPERAR DOLAR",True
+com_acct_111213,l10n_cl_dib_comercial,"111213",account.data_account_type_receivable,"VALORES X ACLARAR O RECUPERA",True
+com_acct_111214,l10n_cl_dib_comercial,"111214",account.data_account_type_receivable,"DIF DE CAMBIO POR FACTURAR",True
+com_acct_111215,l10n_cl_dib_comercial,"111215",account.data_account_type_receivable,"REFACT DIB INTERNACIONAL DOLAR",True
+com_acct_111298,l10n_cl_dib_comercial,"111298",account.data_account_type_receivable,"CUENTAS POR COBRAR DIB US$",True
+com_acct_iva_credito,l10n_cl_dib_comercial,"111301",account.data_account_type_current_assets,"IVA CREDITO FISCAL",False
+com_acct_111302,l10n_cl_dib_comercial,"111302",account.data_account_type_current_assets,"IMPTOS. POR RECUPERAR",False
+com_acct_111303,l10n_cl_dib_comercial,"111303",account.data_account_type_current_assets,"PAGO PROVISIONALES MENSUALES",False
+com_acct_111304,l10n_cl_dib_comercial,"111304",account.data_account_type_current_assets,"CREDITO POR DONACIONES",False
+com_acct_111305,l10n_cl_dib_comercial,"111305",account.data_account_type_non_current_assets,"IMPTO DIFERIDO POR COBRAR",False
+com_acct_111306,l10n_cl_dib_comercial,"111306",account.data_account_type_non_current_assets,"PASIVO COMP.IMPTO.DIF.X COBR",False
+com_acct_111307,l10n_cl_dib_comercial,"111307",account.data_account_type_current_assets,"OTIR CREDITO DE CAPACITACION",False
+com_acct_iva_af,l10n_cl_dib_comercial,"111308",account.data_account_type_current_assets,"CREDITO 4% ACT. FIJO",False
+com_acct_111401,l10n_cl_dib_comercial,"111401",account.data_account_type_receivable,"CHEQUES PROTESTADOS",True
+com_acct_111402,l10n_cl_dib_comercial,"111402",account.data_account_type_receivable,"LETRAS PROTESTADAS",True
+com_acct_111406,l10n_cl_dib_comercial,"111406",account.data_account_type_receivable,"DOC. COB. PRE Y JUDICIALES",True
+com_acct_111423,l10n_cl_dib_comercial,"111423",account.data_account_type_receivable,"DOCTOS. EN COB INSTACHECK",True
+com_acct_111501,l10n_cl_dib_comercial,"111501",account.data_account_type_current_assets,"FONDOS MUTUOS",False
+com_acct_111502,l10n_cl_dib_comercial,"111502",account.data_account_type_current_assets,"F MUTUOS US$",False
+com_acct_111801,l10n_cl_dib_comercial,"111801",account.data_account_type_current_assets,"ANTICIPOS ARRIENDO",False
+com_acct_111802,l10n_cl_dib_comercial,"111802",account.data_account_type_current_assets,"GASTOS ANTICIPADOS",False
+com_acct_111811,l10n_cl_dib_comercial,"111811",account.data_account_type_current_assets,"SEGUROS ANTICIPADOS",False
+com_acct_111812,l10n_cl_dib_comercial,"111812",account.data_account_type_current_assets,"FACTURAS EN TRANSITO",False
+com_acct_112001,l10n_cl_dib_comercial,"112001",account.data_account_type_non_current_assets,"GARANTIAS",False
+com_acct_120101,l10n_cl_dib_comercial,"120101",account.data_account_type_fixed_assets,"VEHICULOS",False
+com_acct_120129,l10n_cl_dib_comercial,"120129",account.data_account_type_fixed_assets,"REVALORIZACION VEHICULOS",False
+com_acct_120130,l10n_cl_dib_comercial,"120130",account.data_account_type_depreciation,"DEP. ACUM. VEHICULOS",False
+com_acct_120131,l10n_cl_dib_comercial,"120131",account.data_account_type_fixed_assets,"REV DEP ACUM VEHICULOS",False
+com_acct_maquinarias,l10n_cl_dib_comercial,"120201",account.data_account_type_fixed_assets,"MAQUINARIAS Y EQUIPAMIENTOS",False
+com_acct_120230,l10n_cl_dib_comercial,"120230",account.data_account_type_depreciation,"DEP. ACUM. MAQUINARIAS",False
+com_acct_120301,l10n_cl_dib_comercial,"120301",account.data_account_type_fixed_assets,"MUEBLES Y UTILES",False
+com_acct_120329,l10n_cl_dib_comercial,"120329",account.data_account_type_fixed_assets,"REVALORIZACION M Y UTILES",False
+com_acct_120330,l10n_cl_dib_comercial,"120330",account.data_account_type_depreciation,"DEP. ACUM M Y U",False
+com_acct_120331,l10n_cl_dib_comercial,"120331",account.data_account_type_fixed_assets,"REV DEP ACUM",False
+com_acct_120401,l10n_cl_dib_comercial,"120401",account.data_account_type_fixed_assets,"INSTALACIONES",False
+com_acct_120430,l10n_cl_dib_comercial,"120430",account.data_account_type_depreciation,"DEP. ACUM. INSTALACIONES",False
+com_acct_130101,l10n_cl_dib_comercial,"130101",account.data_account_type_fixed_assets,"INTANGIBLES",False
+com_acct_130102,l10n_cl_dib_comercial,"130102",account.data_account_type_fixed_assets,"REVALORIZACION INTANGIBLES",False
+com_acct_130130,l10n_cl_dib_comercial,"130130",account.data_account_type_fixed_assets,"AMORTIZACION ACUMULADA INTANGI",False
+com_acct_210107,l10n_cl_dib_comercial,"210107",account.data_account_type_current_liabilities,"LINEA DE SOBREGIROS",False
+com_acct_210108,l10n_cl_dib_comercial,"210108",account.data_account_type_current_liabilities,"PRESTAMOS BANCARIOS",False
+com_acct_210109,l10n_cl_dib_comercial,"210109",account.data_account_type_current_liabilities,"CREDITOS BANCARIOS EN DOLARES",False
+com_acct_210113,l10n_cl_dib_comercial,"210113",account.data_account_type_current_liabilities,"CHEQUES POR PAGAR",False
+com_acct_210114,l10n_cl_dib_comercial,"210114",account.data_account_type_current_liabilities,"T/C BANCO SANTANDER",False
+com_acct_210115,l10n_cl_dib_comercial,"210115",account.data_account_type_current_liabilities,"T/CREDITO",False
+com_acct_210116,l10n_cl_dib_comercial,"210116",account.data_account_type_payable,"ACREEDORES VARIOS",True
+com_acct_210206,l10n_cl_dib_comercial,"210206",account.data_account_type_current_liabilities,"C.C. CORPBANCA",False
+com_acct_210207,l10n_cl_dib_comercial,"210207",account.data_account_type_current_liabilities,"CARTAS DE CREDITO EURO",False
+com_acct_210208,l10n_cl_dib_comercial,"210208",account.data_account_type_current_liabilities,"C.C. BCO. CHILE USD",False
+com_acct_210209,l10n_cl_dib_comercial,"210209",account.data_account_type_current_liabilities,"C.CREDITO DOLARES",False
+com_acct_210302,l10n_cl_dib_comercial,"210302",account.data_account_type_payable,"COB.EXT.BCO.SANTANDER",True
+com_acct_210303,l10n_cl_dib_comercial,"210303",account.data_account_type_payable,"COB.EXT.BCO.CHILE",True
+com_acct_210304,l10n_cl_dib_comercial,"210304",account.data_account_type_payable,"COB.EXT.BCI",True
+com_acct_210309,l10n_cl_dib_comercial,"210309",account.data_account_type_payable,"C.DIRECTAS PROVEEDOR USD",True
+com_acct_210310,l10n_cl_dib_comercial,"210310",account.data_account_type_payable,"C.DIRECTAS PROVEEDOR EURO",True
+com_acct_210320,l10n_cl_dib_comercial,"210320",account.data_account_type_payable,"RENDICIONES US$",True
+com_acct_210321,l10n_cl_dib_comercial,"210321",account.data_account_type_payable,"RENDICIONES EURO",True
+com_acct_210403,l10n_cl_dib_comercial,"210403",account.data_account_type_current_liabilities,"FINIQUITOS POR PAGAR",False
+com_acct_210404,l10n_cl_dib_comercial,"210404",account.data_account_type_current_liabilities,"REMUNERACIONES POR PAGAR",False
+com_acct_210405,l10n_cl_dib_comercial,"210405",account.data_account_type_payable,"HONOR. Y COMIS. X PAGAR",True
+com_acct_payable,l10n_cl_dib_comercial,"210406",account.data_account_type_payable,"PROVEEDORES NACIONALES",True
+com_acct_210407,l10n_cl_dib_comercial,"210407",account.data_account_type_current_liabilities,"PROVEEDORES NAC EERR",False
+com_acct_210408,l10n_cl_dib_comercial,"210408",account.data_account_type_current_liabilities,"OTRAS RETENCIONES",False
+com_acct_210409,l10n_cl_dib_comercial,"210409",account.data_account_type_payable,"CTA. CTE. A. ADUANA",True
+com_acct_210410,l10n_cl_dib_comercial,"210410",account.data_account_type_current_liabilities,"DEVOLUCION MERCADERIAS EN TRAN",False
+com_acct_210415,l10n_cl_dib_comercial,"210415",account.data_account_type_current_liabilities,"FONDO DE RECREACION",False
+com_acct_210417,l10n_cl_dib_comercial,"210417",account.data_account_type_current_liabilities,"CUENTAS POR PAGAR",False
+com_acct_210501,l10n_cl_dib_comercial,"210501",account.data_account_type_payable,"FLETES POR PAGAR DOL",True
+com_acct_210502,l10n_cl_dib_comercial,"210502",account.data_account_type_payable,"FLETES POR PAGAR EUR",True
+com_acct_210503,l10n_cl_dib_comercial,"210503",account.data_account_type_payable,"SEGUROS POR PAGAR USD",True
+com_acct_210504,l10n_cl_dib_comercial,"210504",account.data_account_type_payable,"OTRAS CUENTAS DOLARES",True
+com_acct_210601,l10n_cl_dib_comercial,"210601",account.data_account_type_current_liabilities,"LEYES SOCIALES POR PAGAR",False
+com_acct_retencion,l10n_cl_dib_comercial,"210602",account.data_account_type_current_liabilities,"IMPUESTO RETENCION",False
+com_acct_210603,l10n_cl_dib_comercial,"210603",account.data_account_type_current_liabilities,"IMPUESTO UNICO",False
+com_acct_iva_debito,l10n_cl_dib_comercial,"210604",account.data_account_type_current_liabilities,"I.V.A. DEBITO FISCAL",False
+com_acct_210605,l10n_cl_dib_comercial,"210605",account.data_account_type_current_liabilities,"P.P.M. POR PAGAR",False
+com_acct_210606,l10n_cl_dib_comercial,"210606",account.data_account_type_current_liabilities,"IMPUESTOS POR PAGAR",False
+com_acct_210607,l10n_cl_dib_comercial,"210607",account.data_account_type_current_liabilities,"RET.PTMO SOLIDARIO SII",False
+com_acct_210701,l10n_cl_dib_comercial,"210701",account.data_account_type_non_current_liabilities,"PROV.IMPTO.A LA RENTA",False
+com_acct_210702,l10n_cl_dib_comercial,"210702",account.data_account_type_non_current_liabilities,"PROVISION VACACIONES",False
+com_acct_210705,l10n_cl_dib_comercial,"210705",account.data_account_type_non_current_liabilities,"PROV.DEUDORES INCOBRABLES",False
+com_acct_210706,l10n_cl_dib_comercial,"210706",account.data_account_type_non_current_liabilities,"PROVISION CASTIGO EXISTENCIA",False
+com_acct_210710,l10n_cl_dib_comercial,"210710",account.data_account_type_non_current_liabilities,"PROVISIONES VARIAS",False
+com_acct_210711,l10n_cl_dib_comercial,"210711",account.data_account_type_non_current_liabilities,"PROVISION GASTOS",False
+com_acct_210797,l10n_cl_dib_comercial,"210797",account.data_account_type_non_current_liabilities,"PROV TRIBUTARIA C MONETARIA C",False
+com_acct_210798,l10n_cl_dib_comercial,"210798",account.data_account_type_non_current_liabilities,"PROV TRIBUTARIA C MONETARIA EX",False
+com_acct_210799,l10n_cl_dib_comercial,"210799",account.data_account_type_non_current_liabilities,"PROV TRIBUTARIA C MONETARIA VA",False
+com_acct_210801,l10n_cl_dib_comercial,"210801",account.data_account_type_current_liabilities,"FLETS POR PAGAR EURO",False
+com_acct_210802,l10n_cl_dib_comercial,"210802",account.data_account_type_current_liabilities,"FLETES POR PAGAR US$",False
+com_acct_210803,l10n_cl_dib_comercial,"210803",account.data_account_type_current_liabilities,"SEGUROS POR PAGAR US$",False
+com_acct_220102,l10n_cl_dib_comercial,"220102",account.data_account_type_non_current_liabilities,"SOCIO EDUARDO DIB M.",False
+com_acct_220103,l10n_cl_dib_comercial,"220103",account.data_account_type_non_current_liabilities,"SOCIO BELLAVISTA S.A.",False
+com_acct_220104,l10n_cl_dib_comercial,"220104",account.data_account_type_non_current_liabilities,"SOCIO FELIPE DIB G.",False
+com_acct_220105,l10n_cl_dib_comercial,"220105",account.data_account_type_non_current_liabilities,"SOCIO MACARENA DIB G.",False
+com_acct_220201,l10n_cl_dib_comercial,"220201",account.data_account_type_non_current_liabilities,"REV. DEL CAPITAL PROPIO",False
+com_acct_220202,l10n_cl_dib_comercial,"220202",account.data_account_type_non_current_liabilities,"UTILIDADES ACUMULADAS",False
+com_acct_220203,l10n_cl_dib_comercial,"220203",account.data_account_type_non_current_liabilities,"UTILIDADES DEL EJERCICIO",False
+com_acct_220204,l10n_cl_dib_comercial,"220204",account.data_account_type_non_current_liabilities,"REVALUACION CTAS PATRIMONIO",False
+com_acct_220401,l10n_cl_dib_comercial,"220401",account.data_account_type_non_current_liabilities,"CTA.PART.E.DIB MALUK",False
+com_acct_220403,l10n_cl_dib_comercial,"220403",account.data_account_type_non_current_liabilities,"CTA.PART.BELLAVISTA",False
+com_acct_220404,l10n_cl_dib_comercial,"220404",account.data_account_type_non_current_liabilities,"APORTES EDUARDO DIB MALUK",False
+com_acct_220405,l10n_cl_dib_comercial,"220405",account.data_account_type_non_current_liabilities,"CTA.PART.FELIPE DIB",False
+com_acct_220406,l10n_cl_dib_comercial,"220406",account.data_account_type_non_current_liabilities,"CTA.PART.MACARENA DIB",False
+com_acct_220499,l10n_cl_dib_comercial,"220499",account.data_account_type_non_current_liabilities,"REVALUACION CTAS PARTICULARES",False
+com_acct_income_categ,l10n_cl_dib_comercial,"310101",account.data_account_type_revenue,"VENTAS GENERALES",False
+com_acct_310102,l10n_cl_dib_comercial,"310102",account.data_account_type_other_income,"DIFERENCIAS POR REDONDEO",False
+com_acct_310104,l10n_cl_dib_comercial,"310104",account.data_account_type_revenue,"VENTAS CONSIGNACION",False
+com_acct_310106,l10n_cl_dib_comercial,"310106",account.data_account_type_revenue,"EXPORTACIONES",False
+com_acct_310201,l10n_cl_dib_comercial,"310201",account.data_account_type_other_income,"INGRESOS NO OPERACIONALES",False
+com_acct_310202,l10n_cl_dib_comercial,"310202",account.data_account_type_other_income,"INTERESES PERCIBIDOS",False
+com_acct_310203,l10n_cl_dib_comercial,"310203",account.data_account_type_other_income,"OTROS INGRESOS OPERACIONALES",False
+com_acct_310205,l10n_cl_dib_comercial,"310205",account.data_account_type_other_income,"REAJUSTE CREDITO FISCAL",False
+com_acct_310206,l10n_cl_dib_comercial,"310206",account.data_account_type_other_income,"REAJ. PREST. U.F.",False
+com_acct_310207,l10n_cl_dib_comercial,"310207",account.data_account_type_other_income,"VENTA DE ACTIVO FIJO",False
+com_acct_310208,l10n_cl_dib_comercial,"310208",account.data_account_type_other_income,"FACTURACION INTEREMPRESA",False
+com_acct_310301,l10n_cl_dib_comercial,"310301",account.data_account_type_other_income,"CORRECION MONETARIA",False
+com_acct_expense_currency,l10n_cl_dib_comercial,"310401",account.data_account_type_other_income,"DIFERENCIAS DE CAMBIO",False
+com_acct_310402,l10n_cl_dib_comercial,"310402",account.data_account_type_other_income,"D.CAMBIO FINANCIERO",False
+com_acct_310499,l10n_cl_dib_comercial,"310499",account.data_account_type_other_income,"ACUMULADOR DIF CAMBIO MENSUAL",False
+com_acct_410101,l10n_cl_dib_comercial,"410101",account.data_account_type_expenses,"GASTOS COMUNES",False
+com_acct_410102,l10n_cl_dib_comercial,"410102",account.data_account_type_expenses,"ARRIENDOS",False
+com_acct_410103,l10n_cl_dib_comercial,"410103",account.data_account_type_expenses,"INCENTIVOS METAS",False
+com_acct_410104,l10n_cl_dib_comercial,"410104",account.data_account_type_expenses,"COMISION TRANSBANK",False
+com_acct_410105,l10n_cl_dib_comercial,"410105",account.data_account_type_expenses,"COMBUST MANT CONCES AUTOPISTAS",False
+com_acct_410106,l10n_cl_dib_comercial,"410106",account.data_account_type_expenses,"DEPRECIACIONES",False
+com_acct_410107,l10n_cl_dib_comercial,"410107",account.data_account_type_expenses,"INS, MANT REP ACCES SOFTW COMP",False
+com_acct_410108,l10n_cl_dib_comercial,"410108",account.data_account_type_expenses,"ENERGIA ELECTRICA",False
+com_acct_410109,l10n_cl_dib_comercial,"410109",account.data_account_type_expenses,"FLETES, VALIJAS, ENCOMIENDAS",False
+com_acct_410110,l10n_cl_dib_comercial,"410110",account.data_account_type_expenses,"GTS COMIS COBRANZAS BANCARIAS",False
+com_acct_410111,l10n_cl_dib_comercial,"410111",account.data_account_type_expenses,"GTS. REPRESENTACION",False
+com_acct_varios,l10n_cl_dib_comercial,"410112",account.data_account_type_expenses,"GASTOS VARIOS",False
+com_acct_410113,l10n_cl_dib_comercial,"410113",account.data_account_type_expenses,"GASTOS IMPORTACION",False
+com_acct_honorarios,l10n_cl_dib_comercial,"410114",account.data_account_type_expenses,"HONORARIOS Y COMISIONES",False
+com_acct_410115,l10n_cl_dib_comercial,"410115",account.data_account_type_expenses,"IMPTOS. E INT BANCARIOS",False
+com_acct_410116,l10n_cl_dib_comercial,"410116",account.data_account_type_expenses,"EMBALAJES, PALLETS,FILM",False
+com_acct_410117,l10n_cl_dib_comercial,"410117",account.data_account_type_expenses,"MANTENCIONES Y REPARACIONES",False
+com_acct_410118,l10n_cl_dib_comercial,"410118",account.data_account_type_expenses,"PUBLIC, MARK Y PROMOC POS",False
+com_acct_410119,l10n_cl_dib_comercial,"410119",account.data_account_type_expenses,"REMUNERACIONES",False
+com_acct_410120,l10n_cl_dib_comercial,"410120",account.data_account_type_expenses,"REMUN.VARIABLES",False
+com_acct_410121,l10n_cl_dib_comercial,"410121",account.data_account_type_expenses,"TELEFONIA, COMUNIC. INTERNET H",False
+com_acct_410122,l10n_cl_dib_comercial,"410122",account.data_account_type_expenses,"IMPRENTA, LIBRERIA",False
+com_acct_410123,l10n_cl_dib_comercial,"410123",account.data_account_type_expenses,"SEGUROS GENERALES",False
+com_acct_410124,l10n_cl_dib_comercial,"410124",account.data_account_type_expenses,"GTOS DE PERSONAL Y CAPACITACIO",False
+com_acct_410125,l10n_cl_dib_comercial,"410125",account.data_account_type_expenses,"PATENTES COMERCIALES",False
+com_acct_410126,l10n_cl_dib_comercial,"410126",account.data_account_type_expenses,"CONFECCIONES, INSTALACIONES",False
+com_acct_410127,l10n_cl_dib_comercial,"410127",account.data_account_type_expenses,"GASTOS DE OUTSOURCING",False
+com_acct_410128,l10n_cl_dib_comercial,"410128",account.data_account_type_expenses,"PROMOTORES INTERNOS",False
+com_acct_410129,l10n_cl_dib_comercial,"410129",account.data_account_type_expenses,"PE",False
+com_acct_410130,l10n_cl_dib_comercial,"410130",account.data_account_type_expenses,"COMISIONES LIQUIDACION FACTURA",False
+com_acct_410131,l10n_cl_dib_comercial,"410131",account.data_account_type_expenses,"GASTOS SEGURIDAD Y VIGILANCIA",False
+com_acct_410132,l10n_cl_dib_comercial,"410132",account.data_account_type_expenses,"DONACIONES",False
+com_acct_410133,l10n_cl_dib_comercial,"410133",account.data_account_type_expenses,"GASTOS DE BODEGAJE",False
+com_acct_410134,l10n_cl_dib_comercial,"410134",account.data_account_type_expenses,"INDEMNIZACIONES",False
+com_acct_410135,l10n_cl_dib_comercial,"410135",account.data_account_type_expenses,"INTERESES Y MULTAS",False
+com_acct_410136,l10n_cl_dib_comercial,"410136",account.data_account_type_expenses,"BONIFICACION ECOMMERCE",False
+com_acct_410137,l10n_cl_dib_comercial,"410137",account.data_account_type_expenses,"SERVICIOS PROFESIONALES FACTUR",False
+com_acct_410138,l10n_cl_dib_comercial,"410138",account.data_account_type_expenses,"INSUMOS INSTALACIONES",False
+com_acct_410140,l10n_cl_dib_comercial,"410140",account.data_account_type_expenses,"PUBLICIDAD CLIENTES",False
+com_acct_410143,l10n_cl_dib_comercial,"410143",account.data_account_type_expenses,"MARCAS",False
+com_acct_410145,l10n_cl_dib_comercial,"410145",account.data_account_type_expenses,"COMIS LICENCIAS",False
+com_acct_410151,l10n_cl_dib_comercial,"410151",account.data_account_type_expenses,"REMUNERACIONES ASIGNABLES",False
+com_acct_410152,l10n_cl_dib_comercial,"410152",account.data_account_type_expenses,"APORTES PATRONALES",False
+com_acct_410160,l10n_cl_dib_comercial,"410160",account.data_account_type_expenses,"PUBLIC POP & CAMIONES",False
+com_acct_410161,l10n_cl_dib_comercial,"410161",account.data_account_type_expenses,"AGENCIA PUBLICIDAD",False
+com_acct_410165,l10n_cl_dib_comercial,"410165",account.data_account_type_expenses,"PUBLIC MEDIOS MARCA DIB",False
+com_acct_410166,l10n_cl_dib_comercial,"410166",account.data_account_type_expenses,"PUBLIC MEDIOS COOPERATIVA",False
+com_acct_410199,l10n_cl_dib_comercial,"410199",account.data_account_type_expenses,"GTS ADMINISTRACION",False
+com_acct_expense_categ,l10n_cl_dib_comercial,"410201",account.data_account_type_direct_costs,"COSTO DE VENTAS",False
+com_acct_410202,l10n_cl_dib_comercial,"410202",account.data_account_type_direct_costs,"COSTO VENTAS EXPORTACIONES",False
+com_acct_410204,l10n_cl_dib_comercial,"410204",account.data_account_type_direct_costs,"COSTOS CONSIGNACION",False
+com_acct_410301,l10n_cl_dib_comercial,"410301",account.data_account_type_expenses,"CORRECCION MONETARIA",False
+com_acct_410401,l10n_cl_dib_comercial,"410401",account.data_account_type_expenses,"DIFERENCIA DE CAMBIO",False
+com_acct_especifico,l10n_cl_dib_comercial,"420101",account.data_account_type_expenses,"GTS.INT.E IMP. FINANCIERO",False
+com_acct_420103,l10n_cl_dib_comercial,"420103",account.data_account_type_expenses,"COSTO ACT.FIJOS VENDIDOS",False
+com_acct_420208,l10n_cl_dib_comercial,"420208",account.data_account_type_direct_costs,"GTOS REFACT INTEREM",False
+com_acct_440101,l10n_cl_dib_comercial,"440101",account.data_account_type_expenses,"IMPUESTO A LA RENTA",False
+imb_acct_11010101,l10n_cl_dib_inmobiliaria,"11010101",account.data_account_type_liquidity,"Caja Principal",True
+imb_acct_11010102,l10n_cl_dib_inmobiliaria,"11010102",account.data_account_type_receivable,"Cheques por Cobrar",True
+imb_acct_11010103,l10n_cl_dib_inmobiliaria,"11010103",account.data_account_type_receivable,"Cheques Protestados",True
+imb_acct_11010201,l10n_cl_dib_inmobiliaria,"11010201",account.data_account_type_liquidity,"Banco Scotiabank (Arg)",True
+imb_acct_11010202,l10n_cl_dib_inmobiliaria,"11010202",account.data_account_type_liquidity,"Banco Bci (Arg)",True
+imb_acct_11010203,l10n_cl_dib_inmobiliaria,"11010203",account.data_account_type_liquidity,"Banco Estado (Arg)",True
+imb_acct_11010204,l10n_cl_dib_inmobiliaria,"11010204",account.data_account_type_liquidity,"Banco de Chile (Arg)",True
+imb_acct_11010205,l10n_cl_dib_inmobiliaria,"11010205",account.data_account_type_liquidity,"Banco Santander",True
+imb_acct_11010301,l10n_cl_dib_inmobiliaria,"11010301",account.data_account_type_liquidity,"Fondo Fijo",True
+imb_acct_11010302,l10n_cl_dib_inmobiliaria,"11010302",account.data_account_type_liquidity,"Fondo Pagos Electronicos",True
+imb_acct_receivable,l10n_cl_dib_inmobiliaria,"11020101",account.data_account_type_receivable,"Clientes",True
+imb_acct_11020102,l10n_cl_dib_inmobiliaria,"11020102",account.data_account_type_receivable,"Clientes UF (solo UF)",True
+imb_acct_11020301,l10n_cl_dib_inmobiliaria,"11020301",account.data_account_type_liquidity,"Fondos Mutuos Scotiabank (A",True
+imb_acct_11020302,l10n_cl_dib_inmobiliaria,"11020302",account.data_account_type_liquidity,"Fondos Mutuos Banco Bci (Ar",True
+imb_acct_11020303,l10n_cl_dib_inmobiliaria,"11020303",account.data_account_type_liquidity,"Fondos Mutuos LV Habitacion",True
+imb_acct_11020304,l10n_cl_dib_inmobiliaria,"11020304",account.data_account_type_liquidity,"Fondos Mutuos LV Facturas",True
+imb_acct_11030101,l10n_cl_dib_inmobiliaria,"11030101",account.data_account_type_current_assets,"Cheques en Cartera",False
+imb_acct_11030102,l10n_cl_dib_inmobiliaria,"11030102",account.data_account_type_current_assets,"Imposiciones por Cobrar",False
+imb_acct_11030103,l10n_cl_dib_inmobiliaria,"11030103",account.data_account_type_receivable,"Otros Documentos por Cobrar",True
+imb_acct_11040101,l10n_cl_dib_inmobiliaria,"11040101",account.data_account_type_current_assets,"Prestamo al Personal",False
+imb_acct_11040102,l10n_cl_dib_inmobiliaria,"11040102",account.data_account_type_current_assets,"Anticipo de Remuneraciones",False
+imb_acct_11040103,l10n_cl_dib_inmobiliaria,"11040103",account.data_account_type_current_assets,"Anticipos Pago Finiquito",False
+imb_acct_11040104,l10n_cl_dib_inmobiliaria,"11040104",account.data_account_type_current_assets,"Otros Anticipos de Remunera",False
+imb_acct_11040201,l10n_cl_dib_inmobiliaria,"11040201",account.data_account_type_current_assets,"Pago sin Documentos Proveed",False
+imb_acct_11040202,l10n_cl_dib_inmobiliaria,"11040202",account.data_account_type_current_assets,"Anticipo Proveedores",False
+imb_acct_11040301,l10n_cl_dib_inmobiliaria,"11040301",account.data_account_type_current_assets,"Pago sin Documentos Subcont",False
+imb_acct_11040302,l10n_cl_dib_inmobiliaria,"11040302",account.data_account_type_current_assets,"Anticipos Subcontratistas",False
+imb_acct_11040401,l10n_cl_dib_inmobiliaria,"11040401",account.data_account_type_current_assets,"Fondo por Rendir",False
+imb_acct_11040402,l10n_cl_dib_inmobiliaria,"11040402",account.data_account_type_current_assets,"Anticipos Honorarios",False
+imb_acct_11040501,l10n_cl_dib_inmobiliaria,"11040501",account.data_account_type_current_assets,"Boletas de Garantia",False
+imb_acct_11040502,l10n_cl_dib_inmobiliaria,"11040502",account.data_account_type_current_assets,"Documento en Garantia",False
+imb_acct_11040601,l10n_cl_dib_inmobiliaria,"11040601",account.data_account_type_current_assets,"Cobros Indebidos por Recupe",False
+imb_acct_11040602,l10n_cl_dib_inmobiliaria,"11040602",account.data_account_type_current_assets,"Deudores Varios",False
+imb_acct_11050101,l10n_cl_dib_inmobiliaria,"11050101",account.data_account_type_current_assets,"Doctos por Cobrar Er I Proy",False
+imb_acct_11050102,l10n_cl_dib_inmobiliaria,"11050102",account.data_account_type_current_assets,"Doctos por Cobrar Construcc",False
+imb_acct_11050103,l10n_cl_dib_inmobiliaria,"11050103",account.data_account_type_current_assets,"Doctos por Cobrar Orion",False
+imb_acct_11050201,l10n_cl_dib_inmobiliaria,"11050201",account.data_account_type_current_assets,"Cuentas por Cobrar I Argent",False
+imb_acct_11050202,l10n_cl_dib_inmobiliaria,"11050202",account.data_account_type_current_assets,"Cuentas por Cobrar Bellavis",False
+imb_acct_11050203,l10n_cl_dib_inmobiliaria,"11050203",account.data_account_type_current_assets,"Cuentas por Cobrar I Boul S",False
+imb_acct_11050301,l10n_cl_dib_inmobiliaria,"11050301",account.data_account_type_current_assets,"CCM I Boulevard Viña",False
+imb_acct_11050302,l10n_cl_dib_inmobiliaria,"11050302",account.data_account_type_current_assets,"CCM Bellavista",False
+imb_acct_11050303,l10n_cl_dib_inmobiliaria,"11050303",account.data_account_type_current_assets,"CCM I Boulevard Santiago",False
+imb_acct_11050304,l10n_cl_dib_inmobiliaria,"11050304",account.data_account_type_current_assets,"CCM I Nueva Reñaca",False
+imb_acct_11050305,l10n_cl_dib_inmobiliaria,"11050305",account.data_account_type_current_assets,"CCM I Nueva Concepción",False
+imb_acct_11050306,l10n_cl_dib_inmobiliaria,"11050306",account.data_account_type_current_assets,"CCM I Boulevard Alvarez",False
+imb_acct_11060101,l10n_cl_dib_inmobiliaria,"11060101",account.data_account_type_current_assets,"Contemporaneo",False
+imb_acct_11060102,l10n_cl_dib_inmobiliaria,"11060102",account.data_account_type_current_assets,"Desarrollo de Proyectos",False
+imb_acct_11060103,l10n_cl_dib_inmobiliaria,"11060103",account.data_account_type_current_assets,"Estacionamientos",False
+imb_acct_11070101,l10n_cl_dib_inmobiliaria,"11070101",account.data_account_type_current_assets,"Arquitectura",False
+imb_acct_11070102,l10n_cl_dib_inmobiliaria,"11070102",account.data_account_type_current_assets,"Revisor Arquitectura",False
+imb_acct_11070201,l10n_cl_dib_inmobiliaria,"11070201",account.data_account_type_current_assets,"Calculo estructural",False
+imb_acct_11070202,l10n_cl_dib_inmobiliaria,"11070202",account.data_account_type_current_assets,"Revisor Cálculo",False
+imb_acct_11070301,l10n_cl_dib_inmobiliaria,"11070301",account.data_account_type_current_assets,"Climatizacion",False
+imb_acct_11070302,l10n_cl_dib_inmobiliaria,"11070302",account.data_account_type_current_assets,"Electricidad y CCDD",False
+imb_acct_11070303,l10n_cl_dib_inmobiliaria,"11070303",account.data_account_type_current_assets,"Impacto vial",False
+imb_acct_11070304,l10n_cl_dib_inmobiliaria,"11070304",account.data_account_type_current_assets,"Mecánica de suelos",False
+imb_acct_11070305,l10n_cl_dib_inmobiliaria,"11070305",account.data_account_type_current_assets,"Sala basura",False
+imb_acct_11070306,l10n_cl_dib_inmobiliaria,"11070306",account.data_account_type_current_assets,"Sanitario",False
+imb_acct_11070307,l10n_cl_dib_inmobiliaria,"11070307",account.data_account_type_current_assets,"Topografia",False
+imb_acct_11070308,l10n_cl_dib_inmobiliaria,"11070308",account.data_account_type_current_assets,"Interiorismo y decoración",False
+imb_acct_11070309,l10n_cl_dib_inmobiliaria,"11070309",account.data_account_type_current_assets,"Paisajismo",False
+imb_acct_11070310,l10n_cl_dib_inmobiliaria,"11070310",account.data_account_type_current_assets,"Pavimentación",False
+imb_acct_11070311,l10n_cl_dib_inmobiliaria,"11070311",account.data_account_type_current_assets,"Impermeabilización",False
+imb_acct_11070312,l10n_cl_dib_inmobiliaria,"11070312",account.data_account_type_current_assets,"Otras especialidades",False
+imb_acct_11070313,l10n_cl_dib_inmobiliaria,"11070313",account.data_account_type_current_assets,"Honorarios abogado",False
+imb_acct_11070401,l10n_cl_dib_inmobiliaria,"11070401",account.data_account_type_current_assets,"Inspeccion Tecnica",False
+imb_acct_11070501,l10n_cl_dib_inmobiliaria,"11070501",account.data_account_type_current_assets,"Equipos y sistemas",False
+imb_acct_11070502,l10n_cl_dib_inmobiliaria,"11070502",account.data_account_type_current_assets,"Servicios básicos",False
+imb_acct_11070503,l10n_cl_dib_inmobiliaria,"11070503",account.data_account_type_current_assets,"Patente Sala Venta",False
+imb_acct_11070504,l10n_cl_dib_inmobiliaria,"11070504",account.data_account_type_current_assets,"Garantía en verde",False
+imb_acct_11070505,l10n_cl_dib_inmobiliaria,"11070505",account.data_account_type_current_assets,"Comisión Transbank",False
+imb_acct_11070506,l10n_cl_dib_inmobiliaria,"11070506",account.data_account_type_current_assets,"Cta Cte Transbank",False
+imb_acct_11070601,l10n_cl_dib_inmobiliaria,"11070601",account.data_account_type_current_assets,"Construcción",False
+imb_acct_11070602,l10n_cl_dib_inmobiliaria,"11070602",account.data_account_type_current_assets,"Habilitación",False
+imb_acct_11070603,l10n_cl_dib_inmobiliaria,"11070603",account.data_account_type_current_assets,"Patente Comercial Sala de V",False
+imb_acct_11070604,l10n_cl_dib_inmobiliaria,"11070604",account.data_account_type_current_assets,"Obras en Ejecución",False
+imb_acct_11070605,l10n_cl_dib_inmobiliaria,"11070605",account.data_account_type_current_assets,"Sala de ventas y piloto",False
+imb_acct_11070701,l10n_cl_dib_inmobiliaria,"11070701",account.data_account_type_current_assets,"Habilitación áreas comunes",False
+imb_acct_11070801,l10n_cl_dib_inmobiliaria,"11070801",account.data_account_type_current_assets,"Permisos Municipales Antepr",False
+imb_acct_11070802,l10n_cl_dib_inmobiliaria,"11070802",account.data_account_type_current_assets,"Permisos Municipales PON",False
+imb_acct_11070803,l10n_cl_dib_inmobiliaria,"11070803",account.data_account_type_current_assets,"Modificación PON",False
+imb_acct_11070804,l10n_cl_dib_inmobiliaria,"11070804",account.data_account_type_current_assets,"Copropiedad Inmobiliaria",False
+imb_acct_11070901,l10n_cl_dib_inmobiliaria,"11070901",account.data_account_type_current_assets,"Administración proyecto",False
+imb_acct_11070902,l10n_cl_dib_inmobiliaria,"11070902",account.data_account_type_current_assets,"Contabilidad Administración",False
+imb_acct_11071001,l10n_cl_dib_inmobiliaria,"11071001",account.data_account_type_current_assets,"Seguro de incendio y sismo",False
+imb_acct_11071002,l10n_cl_dib_inmobiliaria,"11071002",account.data_account_type_current_assets,"Contribuciones unidades no",False
+imb_acct_11071101,l10n_cl_dib_inmobiliaria,"11071101",account.data_account_type_current_assets,"Intereses devengados",False
+imb_acct_11071102,l10n_cl_dib_inmobiliaria,"11071102",account.data_account_type_current_assets,"Comisiones Financieras Vari",False
+imb_acct_11071103,l10n_cl_dib_inmobiliaria,"11071103",account.data_account_type_current_assets,"Cto Fin Terreno",False
+imb_acct_11071201,l10n_cl_dib_inmobiliaria,"11071201",account.data_account_type_current_assets,"Tasaciones",False
+imb_acct_11071202,l10n_cl_dib_inmobiliaria,"11071202",account.data_account_type_current_assets,"Otros Varios",False
+imb_acct_11071203,l10n_cl_dib_inmobiliaria,"11071203",account.data_account_type_current_assets,"Asesorías",False
+imb_acct_11071204,l10n_cl_dib_inmobiliaria,"11071204",account.data_account_type_current_assets,"Obras Previas",False
+imb_acct_11071299,l10n_cl_dib_inmobiliaria,"11071299",account.data_account_type_current_assets,"Canje Cliente Proveedor",False
+imb_acct_11080101,l10n_cl_dib_inmobiliaria,"11080101",account.data_account_type_current_assets,"Credito Gastos de Capacitac",False
+imb_acct_11080102,l10n_cl_dib_inmobiliaria,"11080102",account.data_account_type_current_assets,"Credito Activo Fijo Nuevo (",False
+imb_acct_11080103,l10n_cl_dib_inmobiliaria,"11080103",account.data_account_type_current_assets,"Credito por Donaciones",False
+imb_acct_11080104,l10n_cl_dib_inmobiliaria,"11080104",account.data_account_type_current_assets,"Pagos Provisionales Mensual",False
+imb_acct_11080105,l10n_cl_dib_inmobiliaria,"11080105",account.data_account_type_current_assets,"Credito por Contribuciones",False
+imb_acct_11080106,l10n_cl_dib_inmobiliaria,"11080106",account.data_account_type_current_assets,"Pago Provisional por Utilid",False
+imb_acct_iva_credito,l10n_cl_dib_inmobiliaria,"11080201",account.data_account_type_current_assets,"Iva Credito Fiscal",False
+imb_acct_11080202,l10n_cl_dib_inmobiliaria,"11080202",account.data_account_type_current_assets,"Remanente PPM",False
+imb_acct_11080203,l10n_cl_dib_inmobiliaria,"11080203",account.data_account_type_current_assets,"Credito por Impto. Especifi",False
+imb_acct_11080204,l10n_cl_dib_inmobiliaria,"11080204",account.data_account_type_current_assets,"Iva Credito Activo Fijo",False
+imb_acct_11090101,l10n_cl_dib_inmobiliaria,"11090101",account.data_account_type_current_assets,"Gastos Pagados por Anticipa",False
+imb_acct_11100101,l10n_cl_dib_inmobiliaria,"11100101",account.data_account_type_current_assets,"Otros Activos Circulantes",False
+imb_acct_11120101,l10n_cl_dib_inmobiliaria,"11120101",account.data_account_type_current_assets,"Activos para Leasing",False
+imb_acct_11120102,l10n_cl_dib_inmobiliaria,"11120102",account.data_account_type_current_assets,"Activo Fijo en Leasing",False
+imb_acct_12010101,l10n_cl_dib_inmobiliaria,"12010101",account.data_account_type_current_assets,"Terreno",False
+imb_acct_12010102,l10n_cl_dib_inmobiliaria,"12010102",account.data_account_type_current_assets,"Plusvalia Nueva Reñaca",False
+imb_acct_12020101,l10n_cl_dib_inmobiliaria,"12020101",account.data_account_type_current_assets,"Com Ven Eq. Complementarios",False
+imb_acct_12020102,l10n_cl_dib_inmobiliaria,"12020102",account.data_account_type_current_assets,"Muebles y Utiles",False
+imb_acct_12020201,l10n_cl_dib_inmobiliaria,"12020201",account.data_account_type_current_assets,"Bienes Inmuebles",False
+imb_acct_12020201,l10n_cl_dib_inmobiliaria,"12020201",account.data_account_type_current_assets,"Bienes Inmuebles",False
+imb_acct_12020202,l10n_cl_dib_inmobiliaria,"12020202",account.data_account_type_current_assets,"Equipos de Computacion e Im",False
+imb_acct_12020301,l10n_cl_dib_inmobiliaria,"12020301",account.data_account_type_current_assets,"Anticipo Activo Fijo",False
+imb_acct_12030101,l10n_cl_dib_inmobiliaria,"12030101",account.data_account_type_current_assets,"Ajuste Valor por Retasacion",False
+imb_acct_12040101,l10n_cl_dib_inmobiliaria,"12040101",account.data_account_type_current_assets,"Dep. Vehiculos",False
+imb_acct_12040201,l10n_cl_dib_inmobiliaria,"12040201",account.data_account_type_current_assets,"Dep. Muebles y Utiles",False
+imb_acct_12040202,l10n_cl_dib_inmobiliaria,"12040202",account.data_account_type_current_assets,"Dep. Equipos Complementario",False
+imb_acct_12040301,l10n_cl_dib_inmobiliaria,"12040301",account.data_account_type_current_assets,"Amortizacion Software Licen",False
+imb_acct_12040302,l10n_cl_dib_inmobiliaria,"12040302",account.data_account_type_current_assets,"Dep. Equipos de Computacion",False
+imb_acct_12050101,l10n_cl_dib_inmobiliaria,"12050101",account.data_account_type_current_assets,"Activos en Leasing",False
+imb_acct_13010101,l10n_cl_dib_inmobiliaria,"13010101",account.data_account_type_current_assets,"Inversiones en Empresas Rel",False
+imb_acct_13010102,l10n_cl_dib_inmobiliaria,"13010102",account.data_account_type_current_assets,"Inversiones en Empresas Rel",False
+imb_acct_13010103,l10n_cl_dib_inmobiliaria,"13010103",account.data_account_type_current_assets,"Inversiones en Empresas Rel",False
+imb_acct_13010104,l10n_cl_dib_inmobiliaria,"13010104",account.data_account_type_current_assets,"Inversiones en Empresas Rel",False
+imb_acct_13010105,l10n_cl_dib_inmobiliaria,"13010105",account.data_account_type_current_assets,"Inversiones en Empresas Rel",False
+imb_acct_13010106,l10n_cl_dib_inmobiliaria,"13010106",account.data_account_type_current_assets,"Inversiones en Empresas Rel",False
+imb_acct_13020101,l10n_cl_dib_inmobiliaria,"13020101",account.data_account_type_current_assets,"Deudores Largo Plazo",False
+imb_acct_13030101,l10n_cl_dib_inmobiliaria,"13030101",account.data_account_type_current_assets,"Cuentas por Cobrar Empresas",False
+imb_acct_13030102,l10n_cl_dib_inmobiliaria,"13030102",account.data_account_type_current_assets,"Cuentas por Cobrar Empresas",False
+imb_acct_13030103,l10n_cl_dib_inmobiliaria,"13030103",account.data_account_type_current_assets,"Cuentas por Cobrar Empresas",False
+imb_acct_13030104,l10n_cl_dib_inmobiliaria,"13030104",account.data_account_type_current_assets,"Cuentas por Cobrar Empresas",False
+imb_acct_13030105,l10n_cl_dib_inmobiliaria,"13030105",account.data_account_type_current_assets,"Cuentas por Cobrar Empresas",False
+imb_acct_13030106,l10n_cl_dib_inmobiliaria,"13030106",account.data_account_type_current_assets,"Cuentas por Cobrar Empresas",False
+imb_acct_13040101,l10n_cl_dib_inmobiliaria,"13040101",account.data_account_type_current_assets,"Impuestos Diferidos a Largo",False
+imb_acct_13050101,l10n_cl_dib_inmobiliaria,"13050101",account.data_account_type_current_assets,"Licencias Software",False
+imb_acct_13060101,l10n_cl_dib_inmobiliaria,"13060101",account.data_account_type_current_assets,"Amortizacion Acumulada",False
+imb_acct_13070101,l10n_cl_dib_inmobiliaria,"13070101",account.data_account_type_current_assets,"Intereses Diferidos",False
+imb_acct_14010101,l10n_cl_dib_inmobiliaria,"14010101",account.data_account_type_current_assets,"Boletas de Garantia",False
+imb_acct_14010201,l10n_cl_dib_inmobiliaria,"14010201",account.data_account_type_current_assets,"Cheques en Garantia",False
+imb_acct_14020101,l10n_cl_dib_inmobiliaria,"14020101",account.data_account_type_current_assets,"Otras Garantias",False
+imb_acct_21010101,l10n_cl_dib_inmobiliaria,"21010101",account.data_account_type_current_liabilities,"Credito Cp Banco Scotiabank",False
+imb_acct_21010102,l10n_cl_dib_inmobiliaria,"21010102",account.data_account_type_current_liabilities,"Credito Cp Banco BCI",False
+imb_acct_21010103,l10n_cl_dib_inmobiliaria,"21010103",account.data_account_type_current_liabilities,"Credito Cp Banco Estado",False
+imb_acct_21010104,l10n_cl_dib_inmobiliaria,"21010104",account.data_account_type_current_liabilities,"Credito Cp Banco de Chile",False
+imb_acct_21010105,l10n_cl_dib_inmobiliaria,"21010105",account.data_account_type_current_liabilities,"Credito Cp Banco Itau",False
+imb_acct_21010201,l10n_cl_dib_inmobiliaria,"21010201",account.data_account_type_current_liabilities,"Linea Credito Banco Scotiab",False
+imb_acct_21010202,l10n_cl_dib_inmobiliaria,"21010202",account.data_account_type_current_liabilities,"Linea Credito Banco BCI",False
+imb_acct_21010205,l10n_cl_dib_inmobiliaria,"21010205",account.data_account_type_current_liabilities,"Linea Credito Banco Itau",False
+imb_acct_21010301,l10n_cl_dib_inmobiliaria,"21010301",account.data_account_type_current_liabilities,"Tarjeta de Credito EDM",False
+imb_acct_21020101,l10n_cl_dib_inmobiliaria,"21020101",account.data_account_type_current_liabilities,"Dividendos por Pagar",False
+imb_acct_21030103,l10n_cl_dib_inmobiliaria,"21030103",account.data_account_type_current_liabilities,"Anticipo de Clientes Reserv",False
+imb_acct_21030104,l10n_cl_dib_inmobiliaria,"21030104",account.data_account_type_current_liabilities,"Anticipo Clientes Promesa",False
+imb_acct_21030105,l10n_cl_dib_inmobiliaria,"21030105",account.data_account_type_current_liabilities,"Anticipo Clientes Credito",False
+imb_acct_21030106,l10n_cl_dib_inmobiliaria,"21030106",account.data_account_type_current_liabilities,"Anticipo Clientes",False
+imb_acct_payable,l10n_cl_dib_inmobiliaria,"21030201",account.data_account_type_current_liabilities,"Proveedores Nacionales",False
+imb_acct_21030202,l10n_cl_dib_inmobiliaria,"21030202",account.data_account_type_current_liabilities,"Honorarios Por Pagar",False
+imb_acct_21040101,l10n_cl_dib_inmobiliaria,"21040101",account.data_account_type_current_liabilities,"Cheques por pagar",False
+imb_acct_21040102,l10n_cl_dib_inmobiliaria,"21040102",account.data_account_type_current_liabilities,"Cheques Caducados",False
+imb_acct_21050101,l10n_cl_dib_inmobiliaria,"21050101",account.data_account_type_current_liabilities,"Acreedores Varios",False
+imb_acct_21060101,l10n_cl_dib_inmobiliaria,"21060101",account.data_account_type_current_liabilities,"Ccm Empresa Bellavista",False
+imb_acct_21060102,l10n_cl_dib_inmobiliaria,"21060102",account.data_account_type_current_liabilities,"Ccm Empresa I Argenta",False
+imb_acct_21060103,l10n_cl_dib_inmobiliaria,"21060103",account.data_account_type_current_liabilities,"Ccm Empresa I Boul Stgo",False
+imb_acct_21060104,l10n_cl_dib_inmobiliaria,"21060104",account.data_account_type_current_liabilities,"Ccm Empresa I Boul Viña",False
+imb_acct_21060105,l10n_cl_dib_inmobiliaria,"21060105",account.data_account_type_current_liabilities,"Ccm Empresa I Nueva Reñaca",False
+imb_acct_21060106,l10n_cl_dib_inmobiliaria,"21060106",account.data_account_type_non_current_liabilities,"Cta. Cte. Principado de Ast",False
+imb_acct_21060107,l10n_cl_dib_inmobiliaria,"21060107",account.data_account_type_current_liabilities,"Ccm Empresa Farofer SpA",False
+imb_acct_21060108,l10n_cl_dib_inmobiliaria,"21060108",account.data_account_type_current_liabilities,"Ccm Empresa San Marcos SpA",False
+imb_acct_21060109,l10n_cl_dib_inmobiliaria,"21060109",account.data_account_type_current_liabilities,"Ccm Empresa I Nueva Concepc",False
+imb_acct_21070101,l10n_cl_dib_inmobiliaria,"21070101",account.data_account_type_current_liabilities,"Vacaciones Proporcionales",False
+imb_acct_21070102,l10n_cl_dib_inmobiliaria,"21070102",account.data_account_type_current_liabilities,"Indemnizacion por Años de S",False
+imb_acct_21070103,l10n_cl_dib_inmobiliaria,"21070103",account.data_account_type_current_liabilities,"Provision Vacaciones",False
+imb_acct_21070104,l10n_cl_dib_inmobiliaria,"21070104",account.data_account_type_current_liabilities,"Provision Lomas de Montemar",False
+imb_acct_iva_debito,l10n_cl_dib_inmobiliaria,"21080101",account.data_account_type_current_liabilities,"Iva Debito Fiscal",False
+imb_acct_21080102,l10n_cl_dib_inmobiliaria,"21080102",account.data_account_type_current_liabilities,"Impuesto Unico a Los Trabaj",False
+imb_acct_21080103,l10n_cl_dib_inmobiliaria,"21080103",account.data_account_type_current_liabilities,"Impuesto de Segunda Categor",False
+imb_acct_21080104,l10n_cl_dib_inmobiliaria,"21080104",account.data_account_type_current_liabilities,"PPM por Pagar",False
+imb_acct_21080105,l10n_cl_dib_inmobiliaria,"21080105",account.data_account_type_current_liabilities,"Impuesto Retención 3% Rta 4",False
+imb_acct_21080201,l10n_cl_dib_inmobiliaria,"21080201",account.data_account_type_current_liabilities,"Remuneraciones por Pagar",False
+imb_acct_21080202,l10n_cl_dib_inmobiliaria,"21080202",account.data_account_type_current_liabilities,"Finiquitos por Pagar",False
+imb_acct_21080203,l10n_cl_dib_inmobiliaria,"21080203",account.data_account_type_current_liabilities,"Fondo Paseo",False
+imb_acct_21080301,l10n_cl_dib_inmobiliaria,"21080301",account.data_account_type_current_liabilities,"Instituciones Previsionales",False
+imb_acct_21080302,l10n_cl_dib_inmobiliaria,"21080302",account.data_account_type_current_liabilities,"Pagos a Terceros",False
+imb_acct_21080303,l10n_cl_dib_inmobiliaria,"21080303",account.data_account_type_current_liabilities,"Otras Retenciones Prevision",False
+imb_acct_21080401,l10n_cl_dib_inmobiliaria,"21080401",account.data_account_type_current_liabilities,"Retencion Otros Profesional",False
+imb_acct_21080402,l10n_cl_dib_inmobiliaria,"21080402",account.data_account_type_current_liabilities,"Retencion Otros Profesional",False
+imb_acct_21080501,l10n_cl_dib_inmobiliaria,"21080501",account.data_account_type_current_liabilities,"Retenciones Judiciales",False
+imb_acct_21080502,l10n_cl_dib_inmobiliaria,"21080502",account.data_account_type_current_liabilities,"Prestamos Varios",False
+imb_acct_21080503,l10n_cl_dib_inmobiliaria,"21080503",account.data_account_type_current_liabilities,"Otras Retenciones",False
+imb_acct_21090101,l10n_cl_dib_inmobiliaria,"21090101",account.data_account_type_current_liabilities,"Impuesto a La Renta",False
+imb_acct_21090102,l10n_cl_dib_inmobiliaria,"21090102",account.data_account_type_current_liabilities,"Provision Impuesto Unico",False
+imb_acct_21090103,l10n_cl_dib_inmobiliaria,"21090103",account.data_account_type_current_liabilities,"Provision Impuesto Renta",False
+imb_acct_21100101,l10n_cl_dib_inmobiliaria,"21100101",account.data_account_type_current_liabilities,"Impuestos Diferidos",False
+imb_acct_21110101,l10n_cl_dib_inmobiliaria,"21110101",account.data_account_type_current_liabilities,"Facturas por Recibir",False
+imb_acct_21120101,l10n_cl_dib_inmobiliaria,"21120101",account.data_account_type_current_liabilities,"Otros Pasivos Circulantes",False
+imb_acct_21120102,l10n_cl_dib_inmobiliaria,"21120102",account.data_account_type_current_liabilities,"Facturas Cursadas Factoring",False
+imb_acct_21120103,l10n_cl_dib_inmobiliaria,"21120103",account.data_account_type_current_liabilities,"Intereses por Pagar en Fact",False
+imb_acct_22010101,l10n_cl_dib_inmobiliaria,"22010101",account.data_account_type_non_current_liabilities,"Credito Lp Banco Scotiabank",False
+imb_acct_22010102,l10n_cl_dib_inmobiliaria,"22010102",account.data_account_type_non_current_liabilities,"Credito Lp Banco BCI",False
+imb_acct_22010103,l10n_cl_dib_inmobiliaria,"22010103",account.data_account_type_non_current_liabilities,"Credito Lp Banco Estado",False
+imb_acct_22010104,l10n_cl_dib_inmobiliaria,"22010104",account.data_account_type_non_current_liabilities,"Credito Lp Banco de Chile",False
+imb_acct_22010105,l10n_cl_dib_inmobiliaria,"22010105",account.data_account_type_non_current_liabilities,"Credito Lp Banco Itau",False
+imb_acct_22020101,l10n_cl_dib_inmobiliaria,"22020101",account.data_account_type_non_current_liabilities,"Documentos por Pagar Largo",False
+imb_acct_22030101,l10n_cl_dib_inmobiliaria,"22030101",account.data_account_type_non_current_liabilities,"Obligaciones por Leasing",False
+imb_acct_22030102,l10n_cl_dib_inmobiliaria,"22030102",account.data_account_type_non_current_liabilities,"Otros acreedores",False
+imb_acct_22040101,l10n_cl_dib_inmobiliaria,"22040101",account.data_account_type_non_current_liabilities,"Cuentas por Pagar en E Rel",False
+imb_acct_22040102,l10n_cl_dib_inmobiliaria,"22040102",account.data_account_type_non_current_liabilities,"Interes por Pagar",False
+imb_acct_22050101,l10n_cl_dib_inmobiliaria,"22050101",account.data_account_type_non_current_liabilities,"Provisiones Largo Plazo",False
+imb_acct_22060101,l10n_cl_dib_inmobiliaria,"22060101",account.data_account_type_non_current_liabilities,"Impuestos Diferidos a Largo",False
+imb_acct_22070101,l10n_cl_dib_inmobiliaria,"22070101",account.data_account_type_non_current_liabilities,"Otros Pasivos a Largo Plazo",False
+imb_acct_23010100,l10n_cl_dib_inmobiliaria,"23010100",account.data_account_type_non_current_liabilities,"Boletas de Garantia",False
+imb_acct_23010101,l10n_cl_dib_inmobiliaria,"23010101",account.data_account_type_non_current_liabilities,"Garantias por Pagar",False
+imb_acct_23010201,l10n_cl_dib_inmobiliaria,"23010201",account.data_account_type_non_current_liabilities,"Responsabilidad Cheques en",False
+imb_acct_23020101,l10n_cl_dib_inmobiliaria,"23020101",account.data_account_type_non_current_liabilities,"Responsabilidad Otras Garan",False
+imb_acct_24010101,l10n_cl_dib_inmobiliaria,"24010101",account.data_account_type_non_current_liabilities,"Capital Pagado",False
+imb_acct_24020101,l10n_cl_dib_inmobiliaria,"24020101",account.data_account_type_non_current_liabilities,"Revalorizacion Capital Prop",False
+imb_acct_24030101,l10n_cl_dib_inmobiliaria,"24030101",account.data_account_type_non_current_liabilities,"Sobreprecio en Venta Accion",False
+imb_acct_24040101,l10n_cl_dib_inmobiliaria,"24040101",account.data_account_type_non_current_liabilities,"Otras Reservas",False
+imb_acct_25050101,l10n_cl_dib_inmobiliaria,"25050101",account.data_account_type_non_current_liabilities,"Reserva Futuros Dividendos",False
+imb_acct_25050201,l10n_cl_dib_inmobiliaria,"25050201",account.data_account_type_non_current_liabilities,"Resultado Acumulado Utilida",False
+imb_acct_25050301,l10n_cl_dib_inmobiliaria,"25050301",account.data_account_type_non_current_liabilities,"Perdidas Acumuladas (Menos)",False
+imb_acct_25050401,l10n_cl_dib_inmobiliaria,"25050401",account.data_account_type_non_current_liabilities,"Utilidad (Perdida) Del Ejer",False
+imb_acct_25050402,l10n_cl_dib_inmobiliaria,"25050402",account.data_account_type_non_current_liabilities,"Fluctuacion de Valores",False
+imb_acct_25050501,l10n_cl_dib_inmobiliaria,"25050501",account.data_account_type_non_current_liabilities,"Dividendos Provisorios (Men",False
+imb_acct_31000001,l10n_cl_dib_inmobiliaria,"31000001",account.data_account_type_expenses,"Pérdida empresas relacionad",False
+imb_acct_expense_categ,l10n_cl_dib_inmobiliaria,"31010101",account.data_account_type_direct_costs,"COSTO DE VENTAS",False
+imb_acct_31010301,l10n_cl_dib_inmobiliaria,"31010301",account.data_account_type_expenses,"CORRETAJE",False
+imb_acct_31010302,l10n_cl_dib_inmobiliaria,"31010302",account.data_account_type_expenses,"Gastos comunes",False
+imb_acct_31010303,l10n_cl_dib_inmobiliaria,"31010303",account.data_account_type_expenses,"Entrega unidades",False
+imb_acct_31010304,l10n_cl_dib_inmobiliaria,"31010304",account.data_account_type_expenses,"Mantención unidades",False
+imb_acct_31010305,l10n_cl_dib_inmobiliaria,"31010305",account.data_account_type_expenses,"Postventa inmobiliaria",False
+imb_acct_31010306,l10n_cl_dib_inmobiliaria,"31010306",account.data_account_type_expenses,"Otros costos del proyecto",False
+imb_acct_31020101,l10n_cl_dib_inmobiliaria,"31020101",account.data_account_type_expenses,"GASTOS DE RR.HH",False
+imb_acct_31020102,l10n_cl_dib_inmobiliaria,"31020102",account.data_account_type_expenses,"FERIADO VACACIONES",False
+imb_acct_31020103,l10n_cl_dib_inmobiliaria,"31020103",account.data_account_type_expenses,"GRATIFICACIONES",False
+imb_acct_31020104,l10n_cl_dib_inmobiliaria,"31020104",account.data_account_type_expenses,"APORTE PATRONAL(MUTCESANT",False
+imb_acct_31020105,l10n_cl_dib_inmobiliaria,"31020105",account.data_account_type_expenses,"INDEMNIZACION AÑOS DE SERVI",False
+imb_acct_31020106,l10n_cl_dib_inmobiliaria,"31020106",account.data_account_type_expenses,"MOVILIZACION COLACION",False
+imb_acct_31020107,l10n_cl_dib_inmobiliaria,"31020107",account.data_account_type_expenses,"OTRAS ASIGNACIONES",False
+imb_acct_31020108,l10n_cl_dib_inmobiliaria,"31020108",account.data_account_type_expenses,"AGUINALDOS",False
+imb_acct_31020109,l10n_cl_dib_inmobiliaria,"31020109",account.data_account_type_expenses,"REMUNERACIONES",False
+imb_acct_31020110,l10n_cl_dib_inmobiliaria,"31020110",account.data_account_type_expenses,"COMISIÓN DE VENTA",False
+imb_acct_31020201,l10n_cl_dib_inmobiliaria,"31020201",account.data_account_type_expenses,"ARRIENDOS",False
+imb_acct_31020202,l10n_cl_dib_inmobiliaria,"31020202",account.data_account_type_expenses,"GASTOS BASICOS(AGUA,INTERNE",False
+imb_acct_31020203,l10n_cl_dib_inmobiliaria,"31020203",account.data_account_type_expenses,"CONTRIBUCIONES Y PATENTES",False
+imb_acct_31020204,l10n_cl_dib_inmobiliaria,"31020204",account.data_account_type_expenses,"INSUMOS COMPUTACIONALES",False
+imb_acct_31020205,l10n_cl_dib_inmobiliaria,"31020205",account.data_account_type_expenses,"UTILES DE ASEO Y MANTENCION",False
+imb_acct_31020206,l10n_cl_dib_inmobiliaria,"31020206",account.data_account_type_expenses,"UTILES DE OFICINAFRANQUEO",False
+imb_acct_retencion,l10n_cl_dib_inmobiliaria,"31020207",account.data_account_type_expenses,"HONORARIOS",False
+imb_acct_31020208,l10n_cl_dib_inmobiliaria,"31020208",account.data_account_type_expenses,"CAPACITACION Y ADIESTRAMIEN",False
+imb_acct_31020209,l10n_cl_dib_inmobiliaria,"31020209",account.data_account_type_expenses,"MOVILIZACION Y COLACION",False
+imb_acct_varios,l10n_cl_dib_inmobiliaria,"31020210",account.data_account_type_expenses,"GASTOS VARIOS",False
+imb_acct_31020211,l10n_cl_dib_inmobiliaria,"31020211",account.data_account_type_expenses,"MEJORASDESARROLLO SOFTWARE",False
+imb_acct_31020212,l10n_cl_dib_inmobiliaria,"31020212",account.data_account_type_expenses,"GASTOS DE VIAJES Y ESTADIA",False
+imb_acct_31020213,l10n_cl_dib_inmobiliaria,"31020213",account.data_account_type_expenses,"GASTOS DE REPRESENTACION",False
+imb_acct_31020214,l10n_cl_dib_inmobiliaria,"31020214",account.data_account_type_expenses,"SERVICIO DE TELEFONIA",False
+imb_acct_31020215,l10n_cl_dib_inmobiliaria,"31020215",account.data_account_type_expenses,"GASTOS POR VALIJA",False
+imb_acct_31020216,l10n_cl_dib_inmobiliaria,"31020216",account.data_account_type_expenses,"GASTOS POR ASESORIAS EN ADM",False
+imb_acct_31020305,l10n_cl_dib_inmobiliaria,"31020305",account.data_account_type_expenses,"GASTOS DEL PROYECTO",False
+imb_acct_31020306,l10n_cl_dib_inmobiliaria,"31020306",account.data_account_type_expenses,"DONACIONES",False
+imb_acct_31020307,l10n_cl_dib_inmobiliaria,"31020307",account.data_account_type_expenses,"Gastos de administración y",False
+imb_acct_31030101,l10n_cl_dib_inmobiliaria,"31030101",account.data_account_type_expenses,"INTERESES BANCARIOS",False
+imb_acct_31030102,l10n_cl_dib_inmobiliaria,"31030102",account.data_account_type_expenses,"IMPUESTOS D.L. 3.475TIMBRE",False
+imb_acct_31030103,l10n_cl_dib_inmobiliaria,"31030103",account.data_account_type_expenses,"GASTOS BANCARIOS",False
+imb_acct_31030104,l10n_cl_dib_inmobiliaria,"31030104",account.data_account_type_expenses,"FLUCTUACION DE CAMBIO REAL",False
+imb_acct_31030105,l10n_cl_dib_inmobiliaria,"31030105",account.data_account_type_expenses,"IVA FUERA DE PLAZO",False
+imb_acct_31030106,l10n_cl_dib_inmobiliaria,"31030106",account.data_account_type_expenses,"GASTOS RECHAZADOS",False
+imb_acct_31030107,l10n_cl_dib_inmobiliaria,"31030107",account.data_account_type_expenses,"INTERESES SCOTIABANK",False
+imb_acct_31030108,l10n_cl_dib_inmobiliaria,"31030108",account.data_account_type_expenses,"INTERESES BANCO BCI",False
+imb_acct_31030109,l10n_cl_dib_inmobiliaria,"31030109",account.data_account_type_expenses,"INTERESES BANCO ESTADO",False
+imb_acct_31030110,l10n_cl_dib_inmobiliaria,"31030110",account.data_account_type_expenses,"INTERESES BANCO DE CHILE",False
+imb_acct_31030111,l10n_cl_dib_inmobiliaria,"31030111",account.data_account_type_expenses,"INT.BANCO ITAU",False
+imb_acct_31030112,l10n_cl_dib_inmobiliaria,"31030112",account.data_account_type_expenses,"Multas e infracciones",False
+imb_acct_31030201,l10n_cl_dib_inmobiliaria,"31030201",account.data_account_type_expenses,"DEPRECIACION DEL EJERCICIO",False
+imb_acct_31030202,l10n_cl_dib_inmobiliaria,"31030202",account.data_account_type_expenses,"CASTIGO DEUDAS INCOBRABLES",False
+imb_acct_31030203,l10n_cl_dib_inmobiliaria,"31030203",account.data_account_type_expenses,"VENTAENAJENACION ACTIVO FI",False
+imb_acct_31030204,l10n_cl_dib_inmobiliaria,"31030204",account.data_account_type_expenses,"PROVISIONES Y CASTIGOS",False
+imb_acct_expense_currency,l10n_cl_dib_inmobiliaria,"31030301",account.data_account_type_expenses,"CORRECCION MONETARIA",False
+imb_acct_31030401,l10n_cl_dib_inmobiliaria,"31030401",account.data_account_type_expenses,"IMPUESTO A LA RENTA 1ª CATE",False
+imb_acct_31030501,l10n_cl_dib_inmobiliaria,"31030501",account.data_account_type_expenses,"INMOBILIARIA BOULEVARD SANT",False
+imb_acct_31030502,l10n_cl_dib_inmobiliaria,"31030502",account.data_account_type_expenses,"INMOBILIARIA BOULEVARD VIÑA",False
+imb_acct_31030503,l10n_cl_dib_inmobiliaria,"31030503",account.data_account_type_expenses,"INMOBILIARIA NUEVA REÑACA",False
+imb_acct_31030504,l10n_cl_dib_inmobiliaria,"31030504",account.data_account_type_expenses,"INMOBILIARIA NUEVA CONCEPCI",False
+imb_acct_31030505,l10n_cl_dib_inmobiliaria,"31030505",account.data_account_type_expenses,"RENTAS OULET",False
+imb_acct_31030506,l10n_cl_dib_inmobiliaria,"31030506",account.data_account_type_expenses,"FIP BOULEVARD",False
+imb_acct_41030201,l10n_cl_dib_inmobiliaria,"41030201",account.data_account_type_expenses,"Costo Seguros",False
+imb_acct_41030301,l10n_cl_dib_inmobiliaria,"41030301",account.data_account_type_expenses,"Costo Factoring",False
+imb_acct_42010101,l10n_cl_dib_inmobiliaria,"42010101",account.data_account_type_expenses,"Gastos de Electricidad",False
+imb_acct_42010102,l10n_cl_dib_inmobiliaria,"42010102",account.data_account_type_expenses,"Gastos Servicios Profesiona",False
+imb_acct_42010103,l10n_cl_dib_inmobiliaria,"42010103",account.data_account_type_expenses,"Gastos por Movilización Per",False
+imb_acct_42010104,l10n_cl_dib_inmobiliaria,"42010104",account.data_account_type_expenses,"Gastos Mano de Obra Oficina",False
+imb_acct_42010105,l10n_cl_dib_inmobiliaria,"42010105",account.data_account_type_expenses,"Gastos Seguros, Patentes y",False
+imb_acct_42010106,l10n_cl_dib_inmobiliaria,"42010106",account.data_account_type_expenses,"Gastos Mov. Alimentación, A",False
+imb_acct_42010107,l10n_cl_dib_inmobiliaria,"42010107",account.data_account_type_expenses,"Gastos sala de ventas y pil",False
+imb_acct_42010108,l10n_cl_dib_inmobiliaria,"42010108",account.data_account_type_expenses,"Auditoría",False
+imb_acct_42010110,l10n_cl_dib_inmobiliaria,"42010110",account.data_account_type_expenses,"Contralorias",False
+imb_acct_42010201,l10n_cl_dib_inmobiliaria,"42010201",account.data_account_type_expenses,"Agencia",False
+imb_acct_42010202,l10n_cl_dib_inmobiliaria,"42010202",account.data_account_type_expenses,"Avisaje prensa off line",False
+imb_acct_42010203,l10n_cl_dib_inmobiliaria,"42010203",account.data_account_type_expenses,"Material impreso",False
+imb_acct_42010204,l10n_cl_dib_inmobiliaria,"42010204",account.data_account_type_expenses,"Gráfica Digital",False
+imb_acct_42010205,l10n_cl_dib_inmobiliaria,"42010205",account.data_account_type_expenses,"Letreros",False
+imb_acct_42010206,l10n_cl_dib_inmobiliaria,"42010206",account.data_account_type_expenses,"Derechos publicitarios",False
+imb_acct_42010207,l10n_cl_dib_inmobiliaria,"42010207",account.data_account_type_expenses,"Eventos y promociones",False
+imb_acct_42010208,l10n_cl_dib_inmobiliaria,"42010208",account.data_account_type_expenses,"Publicidad digital",False
+imb_acct_42010209,l10n_cl_dib_inmobiliaria,"42010209",account.data_account_type_expenses,"Varios Marketing",False
+imb_acct_42020101,l10n_cl_dib_inmobiliaria,"42020101",account.data_account_type_expenses,"Gastos Boletas de Garantia",False
+imb_acct_42020201,l10n_cl_dib_inmobiliaria,"42020201",account.data_account_type_expenses,"Gasto Seguro Personal",False
+imb_acct_42020301,l10n_cl_dib_inmobiliaria,"42020301",account.data_account_type_expenses,"Gastos Cuentas Bancarias",False
+imb_acct_42020401,l10n_cl_dib_inmobiliaria,"42020401",account.data_account_type_expenses,"Gastos Creditos",False
+imb_acct_42020501,l10n_cl_dib_inmobiliaria,"42020501",account.data_account_type_expenses,"Intereses Proveedores",False
+imb_acct_42030101,l10n_cl_dib_inmobiliaria,"42030101",account.data_account_type_expenses,"Gastos Leasing",False
+imb_acct_42040106,l10n_cl_dib_inmobiliaria,"42040106",account.data_account_type_expenses,"Varios Comercializacion",False
+imb_acct_43020100,l10n_cl_dib_inmobiliaria,"43020100",account.data_account_type_expenses,"Egresos por Leasing",False
+imb_acct_43030101,l10n_cl_dib_inmobiliaria,"43030101",account.data_account_type_expenses,"Costo de Venta Activo Fijo",False
+imb_acct_43030201,l10n_cl_dib_inmobiliaria,"43030201",account.data_account_type_expenses,"Provision Gastos Rr.Hh.",False
+imb_acct_43050101,l10n_cl_dib_inmobiliaria,"43050101",account.data_account_type_expenses,"Correccion Monetaria",False
+imb_acct_43050201,l10n_cl_dib_inmobiliaria,"43050201",account.data_account_type_expenses,"Impuesto a La Renta",False
+imb_acct_43050301,l10n_cl_dib_inmobiliaria,"43050301",account.data_account_type_expenses,"Gastos legales",False
+imb_acct_especifico,l10n_cl_dib_inmobiliaria,"43050302",account.data_account_type_expenses,"Otros Gastos",False
+imb_acct_income_categ,l10n_cl_dib_inmobiliaria,"51010101",account.data_account_type_revenue,"Ingresos por Proyecto Conte",False
+imb_acct_51010102,l10n_cl_dib_inmobiliaria,"51010102",account.data_account_type_revenue,"Ingresos por Proyecto Barri",False
+imb_acct_51010103,l10n_cl_dib_inmobiliaria,"51010103",account.data_account_type_revenue,"Ingresos por Proyecto Caroz",False
+imb_acct_51010104,l10n_cl_dib_inmobiliaria,"51010104",account.data_account_type_revenue,"Ingresos por Proyecto Otros",False
+imb_acct_51010105,l10n_cl_dib_inmobiliaria,"51010105",account.data_account_type_other_income,"Utilidad por resciliación",False
+imb_acct_51010201,l10n_cl_dib_inmobiliaria,"51010201",account.data_account_type_other_income,"Administración de Proyectos",False
+imb_acct_52010101,l10n_cl_dib_inmobiliaria,"52010101",account.data_account_type_other_income,"Mayor Valor FFMM",False
+imb_acct_52010102,l10n_cl_dib_inmobiliaria,"52010102",account.data_account_type_other_income,"Mayor Valor Depósitos a Pla",False
+imb_acct_52010201,l10n_cl_dib_inmobiliaria,"52010201",account.data_account_type_other_income,"Otros Ingresos",False
+imb_acct_52010301,l10n_cl_dib_inmobiliaria,"52010301",account.data_account_type_expenses,"Impuesto Renta",False
+imb_acct_52010302,l10n_cl_dib_inmobiliaria,"52010302",account.data_account_type_expenses,"Impuesto Anticipado",False
+imb_acct_52010401,l10n_cl_dib_inmobiliaria,"52010401",account.data_account_type_expenses,"Reajustes Monetarios",False
+imb_acct_52010402,l10n_cl_dib_inmobiliaria,"52010402",account.data_account_type_expenses,"Variación Ptmo UF",False
+inv_acct_110101,l10n_cl_dib_inversiones,"110101",account.data_account_type_liquidity,"Caja",True
+inv_acct_110105,l10n_cl_dib_inversiones,"110105",account.data_account_type_liquidity,"Fondos Fijos",True
+inv_acct_110201,l10n_cl_dib_inversiones,"110201",account.data_account_type_liquidity,"Banco Chile",True
+inv_acct_110202,l10n_cl_dib_inversiones,"110202",account.data_account_type_liquidity,"Banco SantanderSantiago",True
+inv_acct_110203,l10n_cl_dib_inversiones,"110203",account.data_account_type_liquidity,"Banco BBVA",True
+inv_acct_110205,l10n_cl_dib_inversiones,"110205",account.data_account_type_liquidity,"Banco Crédito Inversiones",True
+inv_acct_110207,l10n_cl_dib_inversiones,"110207",account.data_account_type_liquidity,"Banco Itau Corpbanca",True
+inv_acct_110209,l10n_cl_dib_inversiones,"110209",account.data_account_type_liquidity,"Banco Estado",True
+inv_acct_110225,l10n_cl_dib_inversiones,"110225",account.data_account_type_liquidity,"Banco Crédito Inversiones Dóla",True
+inv_acct_110226,l10n_cl_dib_inversiones,"110226",account.data_account_type_liquidity,"Banco Estado Dolar",True
+inv_acct_110299,l10n_cl_dib_inversiones,"110299",account.data_account_type_liquidity,"Fondo Pagos Electrónicos",True
+inv_acct_110304,l10n_cl_dib_inversiones,"110304",account.data_account_type_liquidity,"Depósitos a Plazo US$",True
+inv_acct_110305,l10n_cl_dib_inversiones,"110305",account.data_account_type_liquidity,"Moneda Extranjera US$",True
+inv_acct_110309,l10n_cl_dib_inversiones,"110309",account.data_account_type_liquidity,"Cta. Cte. Merril Lynch US$",True
+inv_acct_110311,l10n_cl_dib_inversiones,"110311",account.data_account_type_liquidity,"Cta. Cte. Larraín Vial US$",True
+inv_acct_110312,l10n_cl_dib_inversiones,"110312",account.data_account_type_liquidity,"Cta. Cte. EFG Capital US$",True
+inv_acct_110313,l10n_cl_dib_inversiones,"110313",account.data_account_type_liquidity,"Cta. Cte. Smith Barney US$",True
+inv_acct_110314,l10n_cl_dib_inversiones,"110314",account.data_account_type_liquidity,"Cta. Cte. Vision A US$",True
+inv_acct_110315,l10n_cl_dib_inversiones,"110315",account.data_account_type_liquidity,"Interactive Brokers",True
+inv_acct_110316,l10n_cl_dib_inversiones,"110316",account.data_account_type_liquidity,"Celfin Internacional US$",True
+inv_acct_110317,l10n_cl_dib_inversiones,"110317",account.data_account_type_liquidity,"Cta. Cte. Compass US$",True
+inv_acct_110318,l10n_cl_dib_inversiones,"110318",account.data_account_type_liquidity,"Cta. Cte. JP Morgan US$",True
+inv_acct_110319,l10n_cl_dib_inversiones,"110319",account.data_account_type_liquidity,"Cta. Cte. Credit Suisse US$",True
+inv_acct_110320,l10n_cl_dib_inversiones,"110320",account.data_account_type_liquidity,"Cta. Cte. Banco Santander US$",True
+inv_acct_110321,l10n_cl_dib_inversiones,"110321",account.data_account_type_liquidity,"Cta. Cte. Morgan Stanley US$",True
+inv_acct_110322,l10n_cl_dib_inversiones,"110322",account.data_account_type_liquidity,"Cta. Cte. JPM Euro",True
+inv_acct_110323,l10n_cl_dib_inversiones,"110323",account.data_account_type_liquidity,"Cta Cte Julius Baer",True
+inv_acct_110401,l10n_cl_dib_inversiones,"110401",account.data_account_type_liquidity,"Cta. Cte. Santander Global",True
+inv_acct_110402,l10n_cl_dib_inversiones,"110402",account.data_account_type_liquidity,"Cta. Cte. Larraín Vial",True
+inv_acct_110403,l10n_cl_dib_inversiones,"110403",account.data_account_type_liquidity,"Cta. Cte. BTG Pactual",True
+inv_acct_110404,l10n_cl_dib_inversiones,"110404",account.data_account_type_liquidity,"Cta. Cte. Valores Security",True
+inv_acct_110405,l10n_cl_dib_inversiones,"110405",account.data_account_type_liquidity,"Cta. Cte. Moneda",True
+inv_acct_110406,l10n_cl_dib_inversiones,"110406",account.data_account_type_liquidity,"Cta. Cte. Credicorp",True
+inv_acct_110407,l10n_cl_dib_inversiones,"110407",account.data_account_type_liquidity,"Cta Cte Bice Corredores",True
+inv_acct_110408,l10n_cl_dib_inversiones,"110408",account.data_account_type_liquidity,"Cta.Cte. Tanner",True
+inv_acct_110501,l10n_cl_dib_inversiones,"110501",account.data_account_type_current_assets,"Acciones Nacionales",False
+inv_acct_110502,l10n_cl_dib_inversiones,"110502",account.data_account_type_current_assets,"Fondos de Inversion Con presen",False
+inv_acct_110503,l10n_cl_dib_inversiones,"110503",account.data_account_type_current_assets,"Fondos de Inversion Sin prese",False
+inv_acct_110504,l10n_cl_dib_inversiones,"110504",account.data_account_type_current_assets,"Fondos Mutuos",False
+inv_acct_110505,l10n_cl_dib_inversiones,"110505",account.data_account_type_current_assets,"Depósitos a Plazo",False
+inv_acct_110599,l10n_cl_dib_inversiones,"110599",account.data_account_type_current_assets,"Transito Acciones",False
+inv_acct_110601,l10n_cl_dib_inversiones,"110601",account.data_account_type_current_assets,"Bonos US$",False
+inv_acct_110602,l10n_cl_dib_inversiones,"110602",account.data_account_type_current_assets,"Fondos de Inversion US$",False
+inv_acct_110603,l10n_cl_dib_inversiones,"110603",account.data_account_type_current_assets,"Acciones US$",False
+inv_acct_110604,l10n_cl_dib_inversiones,"110604",account.data_account_type_current_assets,"Fondo accionario discrecional",False
+inv_acct_110605,l10n_cl_dib_inversiones,"110605",account.data_account_type_current_assets,"Fondos Mutuos US$",False
+inv_acct_110606,l10n_cl_dib_inversiones,"110606",account.data_account_type_current_assets,"Activos Alternativos",False
+inv_acct_110699,l10n_cl_dib_inversiones,"110699",account.data_account_type_current_assets,"Tránsito Inversiones Extranjer",False
+inv_acct_receivable,l10n_cl_dib_inversiones,"120101",account.data_account_type_receivable,"Cheques en Cartera",True
+inv_acct_120102,l10n_cl_dib_inversiones,"120102",account.data_account_type_receivable,"Préstamos Otorgados",True
+inv_acct_120103,l10n_cl_dib_inversiones,"120103",account.data_account_type_receivable,"Letras en cartera",True
+inv_acct_120104,l10n_cl_dib_inversiones,"120104",account.data_account_type_receivable,"Letras en Cob. BCI",True
+inv_acct_120105,l10n_cl_dib_inversiones,"120105",account.data_account_type_receivable,"Cheques Protestados",True
+inv_acct_120106,l10n_cl_dib_inversiones,"120106",account.data_account_type_receivable,"Letras Protestadas",True
+inv_acct_120107,l10n_cl_dib_inversiones,"120107",account.data_account_type_current_assets,"Doctos en Cob. Varas",False
+inv_acct_120108,l10n_cl_dib_inversiones,"120108",account.data_account_type_current_assets,"Factoring por pagar",False
+inv_acct_120201,l10n_cl_dib_inversiones,"120201",account.data_account_type_receivable,"Facturas x Cobrar",True
+inv_acct_120202,l10n_cl_dib_inversiones,"120202",account.data_account_type_receivable,"Cuentas x Cobrar Acciones",True
+inv_acct_120203,l10n_cl_dib_inversiones,"120203",account.data_account_type_receivable,"Cuentas x Cobrar US$",True
+inv_acct_120204,l10n_cl_dib_inversiones,"120204",account.data_account_type_receivable,"Cuentas x Cobrar Inversiones",True
+inv_acct_120205,l10n_cl_dib_inversiones,"120205",account.data_account_type_receivable,"Facturas por Cobrar Empresas R",True
+inv_acct_120301,l10n_cl_dib_inversiones,"120301",account.data_account_type_current_assets,"Anticipo compra de Inmuebles",False
+inv_acct_120302,l10n_cl_dib_inversiones,"120302",account.data_account_type_current_assets,"Otras Cuentas por Cobrar",False
+inv_acct_120303,l10n_cl_dib_inversiones,"120303",account.data_account_type_current_assets,"Anticipos y Préstamos Remunera",False
+inv_acct_120304,l10n_cl_dib_inversiones,"120304",account.data_account_type_current_assets,"Dividendos por Percibir",False
+inv_acct_120305,l10n_cl_dib_inversiones,"120305",account.data_account_type_current_assets,"Intereses por Percibir",False
+inv_acct_120306,l10n_cl_dib_inversiones,"120306",account.data_account_type_current_assets,"Valores x Refacturar",False
+inv_acct_120307,l10n_cl_dib_inversiones,"120307",account.data_account_type_current_assets,"Facturas en tránsito",False
+inv_acct_120308,l10n_cl_dib_inversiones,"120308",account.data_account_type_current_assets,"Valores x Recuperar",False
+inv_acct_120309,l10n_cl_dib_inversiones,"120309",account.data_account_type_current_assets,"Intereses diferidos por leasin",False
+inv_acct_120310,l10n_cl_dib_inversiones,"120310",account.data_account_type_current_assets,"Pérdida diferida por Swap",False
+inv_acct_120311,l10n_cl_dib_inversiones,"120311",account.data_account_type_current_assets,"Fondos x Rendir",False
+inv_acct_120312,l10n_cl_dib_inversiones,"120312",account.data_account_type_current_assets,"Interes diferido en Leasing UF",False
+inv_acct_120390,l10n_cl_dib_inversiones,"120390",account.data_account_type_current_assets,"Canje Derivados",False
+inv_acct_120395,l10n_cl_dib_inversiones,"120395",account.data_account_type_current_assets,"Canje Factoring",False
+inv_acct_120399,l10n_cl_dib_inversiones,"120399",account.data_account_type_current_assets,"Canje Cliente Proveedor",False
+inv_acct_120401,l10n_cl_dib_inversiones,"120401",account.data_account_type_current_assets,"Cta. Cte. Eduardo Dib H. y Cia",False
+inv_acct_120402,l10n_cl_dib_inversiones,"120402",account.data_account_type_current_assets,"Cta. Cte. Inmobiliaria Argenta",False
+inv_acct_120403,l10n_cl_dib_inversiones,"120403",account.data_account_type_current_assets,"Cta. Cte. Bebidas Gulldemar",False
+inv_acct_120405,l10n_cl_dib_inversiones,"120405",account.data_account_type_current_assets,"Cta. Cte. Entrepuntas Ltda.",False
+inv_acct_120406,l10n_cl_dib_inversiones,"120406",account.data_account_type_current_assets,"Cta Cte. Montenegro",False
+inv_acct_120407,l10n_cl_dib_inversiones,"120407",account.data_account_type_current_assets,"Cta. Cte. Rentas Outlet",False
+inv_acct_120408,l10n_cl_dib_inversiones,"120408",account.data_account_type_current_assets,"Cta. Cte. Bodegajes Viña Del M",False
+inv_acct_120409,l10n_cl_dib_inversiones,"120409",account.data_account_type_current_assets,"Cta Cte Valfrio",False
+inv_acct_iva_credito,l10n_cl_dib_inversiones,"120501",account.data_account_type_current_assets,"Iva Crédito Fiscal",False
+inv_acct_120502,l10n_cl_dib_inversiones,"120502",account.data_account_type_current_assets,"Pagos Provisionales Mensuales",False
+inv_acct_120503,l10n_cl_dib_inversiones,"120503",account.data_account_type_current_assets,"Impuesto 1era Categoría x Recu",False
+inv_acct_120504,l10n_cl_dib_inversiones,"120504",account.data_account_type_current_assets,"Crédito Otir Cámara Nacional d",False
+inv_acct_120505,l10n_cl_dib_inversiones,"120505",account.data_account_type_current_assets,"Credito DonacionesDonaciones",False
+inv_acct_120506,l10n_cl_dib_inversiones,"120506",account.data_account_type_non_current_assets,"Impuesto Diferido x Cobrar LP",False
+inv_acct_120507,l10n_cl_dib_inversiones,"120507",account.data_account_type_non_current_assets,"Impuesto Diferido x Cobrar CP",False
+inv_acct_120508,l10n_cl_dib_inversiones,"120508",account.data_account_type_current_assets,"Crédito Activo Fijo",False
+inv_acct_120601,l10n_cl_dib_inversiones,"120601",account.data_account_type_non_current_assets,"Garantía Compra Terreno",False
+inv_acct_130101,l10n_cl_dib_inversiones,"130101",account.data_account_type_fixed_assets,"Bien Raiz Pza Parroquia",False
+inv_acct_130102,l10n_cl_dib_inversiones,"130102",account.data_account_type_fixed_assets,"Bien Raiz Libertad 315",False
+inv_acct_130103,l10n_cl_dib_inversiones,"130103",account.data_account_type_fixed_assets,"Bien Raiz Vitacura 5790",False
+inv_acct_130104,l10n_cl_dib_inversiones,"130104",account.data_account_type_fixed_assets,"Bien Raiz Chacabuco",False
+inv_acct_130105,l10n_cl_dib_inversiones,"130105",account.data_account_type_fixed_assets,"Estacionamientos Montaña",False
+inv_acct_130106,l10n_cl_dib_inversiones,"130106",account.data_account_type_fixed_assets,"Bien Raiz San Pablo",False
+inv_acct_130107,l10n_cl_dib_inversiones,"130107",account.data_account_type_fixed_assets,"Bien Raiz 1 Norte",False
+inv_acct_130108,l10n_cl_dib_inversiones,"130108",account.data_account_type_fixed_assets,"Propiedad Matias Cousiño",False
+inv_acct_130109,l10n_cl_dib_inversiones,"130109",account.data_account_type_fixed_assets,"Propiedad Alvarez 966",False
+inv_acct_130110,l10n_cl_dib_inversiones,"130110",account.data_account_type_fixed_assets,"Propiedad Limache 3061",False
+inv_acct_130111,l10n_cl_dib_inversiones,"130111",account.data_account_type_fixed_assets,"Bien Raiz C Brava Concon",False
+inv_acct_130112,l10n_cl_dib_inversiones,"130112",account.data_account_type_fixed_assets,"Propiedad Quillota 500",False
+inv_acct_130113,l10n_cl_dib_inversiones,"130113",account.data_account_type_fixed_assets,"Propiedad Pilcomayo Cerro Conc",False
+inv_acct_130114,l10n_cl_dib_inversiones,"130114",account.data_account_type_fixed_assets,"San Antonio construcción",False
+inv_acct_130115,l10n_cl_dib_inversiones,"130115",account.data_account_type_fixed_assets,"Prop Matias cousiño depto 1302",False
+inv_acct_130116,l10n_cl_dib_inversiones,"130116",account.data_account_type_fixed_assets,"Higuerillas",False
+inv_acct_130117,l10n_cl_dib_inversiones,"130117",account.data_account_type_fixed_assets,"5 Norte",False
+inv_acct_130118,l10n_cl_dib_inversiones,"130118",account.data_account_type_fixed_assets,"Talcahuano Colon",False
+inv_acct_130119,l10n_cl_dib_inversiones,"130119",account.data_account_type_fixed_assets,"Placa comercial pl Perú Recol",False
+inv_acct_130197,l10n_cl_dib_inversiones,"130197",account.data_account_type_fixed_assets,"Revaluación Bienes raices",False
+inv_acct_130198,l10n_cl_dib_inversiones,"130198",account.data_account_type_fixed_assets,"Revaluacioón deprec acum biene",False
+inv_acct_130199,l10n_cl_dib_inversiones,"130199",account.data_account_type_fixed_assets,"Depreciación Acumulada Bs Raíc",False
+inv_acct_130201,l10n_cl_dib_inversiones,"130201",account.data_account_type_fixed_assets,"Terrenos",False
+inv_acct_130202,l10n_cl_dib_inversiones,"130202",account.data_account_type_fixed_assets,"Terreno Placilla",False
+inv_acct_130203,l10n_cl_dib_inversiones,"130203",account.data_account_type_fixed_assets,"Terreno 1 Norte",False
+inv_acct_130204,l10n_cl_dib_inversiones,"130204",account.data_account_type_fixed_assets,"Terreno Álvarez 966",False
+inv_acct_130205,l10n_cl_dib_inversiones,"130205",account.data_account_type_fixed_assets,"Terreno VianaLimache",False
+inv_acct_130206,l10n_cl_dib_inversiones,"130206",account.data_account_type_fixed_assets,"Terreno Limache 3061",False
+inv_acct_130207,l10n_cl_dib_inversiones,"130207",account.data_account_type_fixed_assets,"Terreno Reñaca Alto",False
+inv_acct_130208,l10n_cl_dib_inversiones,"130208",account.data_account_type_fixed_assets,"Terreno Prop C Brava Concon",False
+inv_acct_130209,l10n_cl_dib_inversiones,"130209",account.data_account_type_fixed_assets,"Terreno Quillota 500",False
+inv_acct_130210,l10n_cl_dib_inversiones,"130210",account.data_account_type_fixed_assets,"Terreno Pilcomayo Cerro Concep",False
+inv_acct_130211,l10n_cl_dib_inversiones,"130211",account.data_account_type_fixed_assets,"San Antonio TErreno",False
+inv_acct_130299,l10n_cl_dib_inversiones,"130299",account.data_account_type_fixed_assets,"Revaluación Terrenos",False
+inv_acct_130301,l10n_cl_dib_inversiones,"130301",account.data_account_type_fixed_assets,"Activos en Leasing",False
+inv_acct_130302,l10n_cl_dib_inversiones,"130302",account.data_account_type_fixed_assets,"Terrenos en leasing",False
+inv_acct_130399,l10n_cl_dib_inversiones,"130399",account.data_account_type_fixed_assets,"Dep.Acum.Act. En Leasing",False
+inv_acct_130401,l10n_cl_dib_inversiones,"130401",account.data_account_type_fixed_assets,"Equipos, Muebles y Útiles",False
+inv_acct_130497,l10n_cl_dib_inversiones,"130497",account.data_account_type_fixed_assets,"Revaluación Muebles y utiles",False
+inv_acct_130498,l10n_cl_dib_inversiones,"130498",account.data_account_type_fixed_assets,"Revaluación Dep Acum Muebles y",False
+inv_acct_130499,l10n_cl_dib_inversiones,"130499",account.data_account_type_fixed_assets,"Depreciación Acumulada Máquina",False
+inv_acct_130501,l10n_cl_dib_inversiones,"130501",account.data_account_type_fixed_assets,"Terreno Proyecto Viana Limache",False
+inv_acct_130502,l10n_cl_dib_inversiones,"130502",account.data_account_type_fixed_assets,"Costos Directos Construcción",False
+inv_acct_130503,l10n_cl_dib_inversiones,"130503",account.data_account_type_fixed_assets,"Imprevistos Construc., Mejoras",False
+inv_acct_130504,l10n_cl_dib_inversiones,"130504",account.data_account_type_fixed_assets,"C. Financieros Proy Edificio V",False
+inv_acct_130505,l10n_cl_dib_inversiones,"130505",account.data_account_type_fixed_assets,"Arquitectura",False
+inv_acct_130506,l10n_cl_dib_inversiones,"130506",account.data_account_type_fixed_assets,"Especialidades: Topografía, Cá",False
+inv_acct_130507,l10n_cl_dib_inversiones,"130507",account.data_account_type_fixed_assets,"Servicios legales",False
+inv_acct_130508,l10n_cl_dib_inversiones,"130508",account.data_account_type_fixed_assets,"Inspección Técnica",False
+inv_acct_130509,l10n_cl_dib_inversiones,"130509",account.data_account_type_fixed_assets,"Permisos Municipales",False
+inv_acct_130510,l10n_cl_dib_inversiones,"130510",account.data_account_type_fixed_assets,"Varios Proyecto edificio",False
+inv_acct_130599,l10n_cl_dib_inversiones,"130599",account.data_account_type_fixed_assets,"Revaluación Proyecto Vianalim",False
+inv_acct_130601,l10n_cl_dib_inversiones,"130601",account.data_account_type_fixed_assets,"Software e Intangibles",False
+inv_acct_130699,l10n_cl_dib_inversiones,"130699",account.data_account_type_fixed_assets,"Otros Activos",False
+inv_acct_140101,l10n_cl_dib_inversiones,"140101",account.data_account_type_non_current_assets,"Ds Eduardo Dib H. y Cia. Ltda.",False
+inv_acct_140102,l10n_cl_dib_inversiones,"140102",account.data_account_type_non_current_assets,"Ds. Soc. Inmob. Entrepuntas Lt",False
+inv_acct_140103,l10n_cl_dib_inversiones,"140103",account.data_account_type_non_current_assets,"Ds.Rentas Valfrio Ltda",False
+inv_acct_140104,l10n_cl_dib_inversiones,"140104",account.data_account_type_non_current_assets,"Ds. Inmobiliaria Argenta Ltda",False
+inv_acct_140105,l10n_cl_dib_inversiones,"140105",account.data_account_type_non_current_assets,"Ds Atlantaline",False
+inv_acct_140106,l10n_cl_dib_inversiones,"140106",account.data_account_type_non_current_assets,"Ds Rentas Outlet Viña del Mar",False
+inv_acct_140107,l10n_cl_dib_inversiones,"140107",account.data_account_type_non_current_assets,"Ds Inversiones Bodegajes Viña",False
+inv_acct_140108,l10n_cl_dib_inversiones,"140108",account.data_account_type_non_current_assets,"Ds Inmobiliaria Nueva Reñaca L",False
+inv_acct_140109,l10n_cl_dib_inversiones,"140109",account.data_account_type_non_current_assets,"Ds. Inmobiliaria Nueva Concepc",False
+inv_acct_140110,l10n_cl_dib_inversiones,"140110",account.data_account_type_non_current_assets,"Ds Servicios Montenegro",False
+inv_acct_140111,l10n_cl_dib_inversiones,"140111",account.data_account_type_non_current_assets,"Inversiones Internacionales Or",False
+inv_acct_140199,l10n_cl_dib_inversiones,"140199",account.data_account_type_non_current_assets,"Revaluación derechos sociales",False
+inv_acct_210101,l10n_cl_dib_inversiones,"210101",account.data_account_type_payable,"Créditos Bancarios Nacionales",True
+inv_acct_210102,l10n_cl_dib_inversiones,"210102",account.data_account_type_payable,"Créditos bancarios Nacionales",True
+inv_acct_210103,l10n_cl_dib_inversiones,"210103",account.data_account_type_payable,"Obligaciones por leasing",True
+inv_acct_210104,l10n_cl_dib_inversiones,"210104",account.data_account_type_payable,"Linea de Sobregiro",True
+inv_acct_210105,l10n_cl_dib_inversiones,"210105",account.data_account_type_payable,"Créditos al Exterrior USD",True
+inv_acct_210106,l10n_cl_dib_inversiones,"210106",account.data_account_type_payable,"Financiamiento Inversiones Fin",True
+inv_acct_210107,l10n_cl_dib_inversiones,"210107",account.data_account_type_payable,"Obligac iones por leasing UF",True
+inv_acct_210201,l10n_cl_dib_inversiones,"210201",account.data_account_type_payable,"Proveedores Nacionales",True
+inv_acct_210202,l10n_cl_dib_inversiones,"210202",account.data_account_type_payable,"Honorarios x Pagar",True
+inv_acct_210203,l10n_cl_dib_inversiones,"210203",account.data_account_type_payable,"Operaciones Simultaneas",True
+inv_acct_210204,l10n_cl_dib_inversiones,"210204",account.data_account_type_payable,"Remuneraciones x Pagar",True
+inv_acct_210205,l10n_cl_dib_inversiones,"210205",account.data_account_type_payable,"Cuentas x Pagar US$",True
+inv_acct_210206,l10n_cl_dib_inversiones,"210206",account.data_account_type_payable,"Cuentas por Pagar Acciones",True
+inv_acct_210207,l10n_cl_dib_inversiones,"210207",account.data_account_type_payable,"Cuentas por pagar UF",True
+inv_acct_210208,l10n_cl_dib_inversiones,"210208",account.data_account_type_payable,"Tarjeta Crédito Banco Santande",True
+inv_acct_210209,l10n_cl_dib_inversiones,"210209",account.data_account_type_payable,"Rendiciones por pagar",True
+inv_acct_210210,l10n_cl_dib_inversiones,"210210",account.data_account_type_payable,"Otras cuentas por Pagar",True
+inv_acct_210211,l10n_cl_dib_inversiones,"210211",account.data_account_type_payable,"Facturas x Pagar EERR",True
+inv_acct_210301,l10n_cl_dib_inversiones,"210301",account.data_account_type_current_liabilities,"Leyes Sociales por Pagar",False
+inv_acct_iva_debito,l10n_cl_dib_inversiones,"210302",account.data_account_type_current_liabilities,"Iva Débito Fiscal",False
+inv_acct_210303,l10n_cl_dib_inversiones,"210303",account.data_account_type_current_liabilities,"Impuesto Retención",False
+inv_acct_210304,l10n_cl_dib_inversiones,"210304",account.data_account_type_current_liabilities,"Impuesto Único",False
+inv_acct_210305,l10n_cl_dib_inversiones,"210305",account.data_account_type_current_liabilities,"PPM por Pagar",False
+inv_acct_210306,l10n_cl_dib_inversiones,"210306",account.data_account_type_non_current_liabilities,"Impuesto Diferido x Pagar LP",False
+inv_acct_210307,l10n_cl_dib_inversiones,"210307",account.data_account_type_non_current_liabilities,"Impuesto Diferido x Pagar CP",False
+inv_acct_especifico,l10n_cl_dib_inversiones,"210308",account.data_account_type_current_liabilities,"Otros Impuestos por Pagar",False
+inv_acct_210309,l10n_cl_dib_inversiones,"210309",account.data_account_type_current_liabilities,"3% RETENCION PTMO SOLIDARIO",False
+inv_acct_210310,l10n_cl_dib_inversiones,"210310",account.data_account_type_current_liabilities,"Fondos Recreación",False
+inv_acct_210401,l10n_cl_dib_inversiones,"210401",account.data_account_type_current_liabilities,"Depósitos en Tránsito",False
+inv_acct_210402,l10n_cl_dib_inversiones,"210402",account.data_account_type_current_liabilities,"Resp.Doctos. en Garantía",False
+inv_acct_210403,l10n_cl_dib_inversiones,"210403",account.data_account_type_current_liabilities,"Pasivos por Swap",False
+inv_acct_210404,l10n_cl_dib_inversiones,"210404",account.data_account_type_current_liabilities,"Int.Dif.Leasing por Cobrar",False
+inv_acct_210405,l10n_cl_dib_inversiones,"210405",account.data_account_type_current_liabilities,"Ingreso diferido swap",False
+inv_acct_210406,l10n_cl_dib_inversiones,"210406",account.data_account_type_current_liabilities,"GARANTIAS ARRIENDOS UF",False
+inv_acct_210501,l10n_cl_dib_inversiones,"210501",account.data_account_type_non_current_liabilities,"Prov.Valores Negociables",False
+inv_acct_210502,l10n_cl_dib_inversiones,"210502",account.data_account_type_non_current_liabilities,"Prov.Impto.1era.Categoría",False
+inv_acct_210503,l10n_cl_dib_inversiones,"210503",account.data_account_type_non_current_liabilities,"Prov. Deudores Incobrables",False
+inv_acct_210504,l10n_cl_dib_inversiones,"210504",account.data_account_type_non_current_liabilities,"Provisión de Vacaciones",False
+inv_acct_210505,l10n_cl_dib_inversiones,"210505",account.data_account_type_non_current_liabilities,"Provisión Inversion Emp.Relac",False
+inv_acct_210506,l10n_cl_dib_inversiones,"210506",account.data_account_type_current_liabilities,"Provision de Gastos",False
+inv_acct_210507,l10n_cl_dib_inversiones,"210507",account.data_account_type_non_current_liabilities,"Provisión Corrección Monetaria",False
+inv_acct_220101,l10n_cl_dib_inversiones,"220101",account.data_account_type_non_current_liabilities,"Capital",False
+inv_acct_220102,l10n_cl_dib_inversiones,"220102",account.data_account_type_non_current_liabilities,"Utilidades Acumuladas",False
+inv_acct_220103,l10n_cl_dib_inversiones,"220103",account.data_account_type_non_current_liabilities,"Utilidad del Ejercicio",False
+inv_acct_220104,l10n_cl_dib_inversiones,"220104",account.data_account_type_non_current_liabilities,"Otras Reservas Patrim.Inver.",False
+inv_acct_220105,l10n_cl_dib_inversiones,"220105",account.data_account_type_non_current_liabilities,"Superavit de revaluación",False
+inv_acct_220106,l10n_cl_dib_inversiones,"220106",account.data_account_type_non_current_liabilities,"Otras reservas",False
+inv_acct_220107,l10n_cl_dib_inversiones,"220107",account.data_account_type_non_current_liabilities,"Capital por Suscribir",False
+inv_acct_220199,l10n_cl_dib_inversiones,"220199",account.data_account_type_non_current_liabilities,"Revaluación cuentas patrimonia",False
+inv_acct_310101,l10n_cl_dib_inversiones,"310101",account.data_account_type_revenue,"Ventas Inmobiliarias",False
+inv_acct_310102,l10n_cl_dib_inversiones,"310102",account.data_account_type_revenue,"Arriendos",False
+inv_acct_310103,l10n_cl_dib_inversiones,"310103",account.data_account_type_revenue,"Intereses y Reajustes",False
+inv_acct_310104,l10n_cl_dib_inversiones,"310104",account.data_account_type_other_income,"Reajuste unidad monetaria UF",False
+inv_acct_310105,l10n_cl_dib_inversiones,"310105",account.data_account_type_other_income,"Diferencia de Cambio",False
+inv_acct_310106,l10n_cl_dib_inversiones,"310106",account.data_account_type_other_income,"Otros Ingresos",False
+inv_acct_310107,l10n_cl_dib_inversiones,"310107",account.data_account_type_other_income,"Reajuste Crédito Fiscal",False
+inv_acct_310108,l10n_cl_dib_inversiones,"310108",account.data_account_type_other_income,"Utilidad en vta inmobiliaria",False
+inv_acct_310109,l10n_cl_dib_inversiones,"310109",account.data_account_type_revenue,"Ingresos por gastos comunes",False
+inv_acct_310110,l10n_cl_dib_inversiones,"310110",account.data_account_type_other_income,"Variación en valor justo de Bi",False
+inv_acct_310199,l10n_cl_dib_inversiones,"310199",account.data_account_type_other_income,"Acumulador Dif Cambio",False
+inv_acct_310201,l10n_cl_dib_inversiones,"310201",account.data_account_type_revenue,"Dividendos Acciones",False
+inv_acct_310202,l10n_cl_dib_inversiones,"310202",account.data_account_type_other_income,"Ut Venta Acciones C/P",False
+inv_acct_310203,l10n_cl_dib_inversiones,"310203",account.data_account_type_other_income,"Ut Venta Acciones S/P",False
+inv_acct_310204,l10n_cl_dib_inversiones,"310204",account.data_account_type_other_income,"Ut Empresas Relacionadas",False
+inv_acct_310205,l10n_cl_dib_inversiones,"310205",account.data_account_type_other_income,"Ut Venta Fondos CLP",False
+inv_acct_310206,l10n_cl_dib_inversiones,"310206",account.data_account_type_other_income,"Fluctuación Inst Nacionales C/",False
+inv_acct_310207,l10n_cl_dib_inversiones,"310207",account.data_account_type_other_income,"Fluctuación Inst Nacionales S/",False
+inv_acct_310208,l10n_cl_dib_inversiones,"310208",account.data_account_type_revenue,"Dividendos Fondos Nacionales",False
+inv_acct_310209,l10n_cl_dib_inversiones,"310209",account.data_account_type_revenue,"Ingresos Accionarios Varios",False
+inv_acct_310301,l10n_cl_dib_inversiones,"310301",account.data_account_type_revenue,"Cupones por Bonos USD",False
+inv_acct_310302,l10n_cl_dib_inversiones,"310302",account.data_account_type_revenue,"Ingresos Varios USD",False
+inv_acct_310303,l10n_cl_dib_inversiones,"310303",account.data_account_type_revenue,"Dividendos Acciones / ETF USD",False
+inv_acct_310304,l10n_cl_dib_inversiones,"310304",account.data_account_type_other_income,"Ut Venta Bonos USD",False
+inv_acct_310305,l10n_cl_dib_inversiones,"310305",account.data_account_type_other_income,"Ut Venta Fondos USD",False
+inv_acct_310306,l10n_cl_dib_inversiones,"310306",account.data_account_type_other_income,"Ut Venta Acciones USD",False
+inv_acct_310307,l10n_cl_dib_inversiones,"310307",account.data_account_type_other_income,"Fluctuación Inst Internacional",False
+inv_acct_310308,l10n_cl_dib_inversiones,"310308",account.data_account_type_revenue,"Dividendos Fondos USD",False
+inv_acct_310309,l10n_cl_dib_inversiones,"310309",account.data_account_type_other_income,"Ut Venta Acciones Discresional",False
+inv_acct_310399,l10n_cl_dib_inversiones,"310399",account.data_account_type_other_income,"Otras fluctuaciones",False
+inv_acct_410102,l10n_cl_dib_inversiones,"410102",account.data_account_type_expenses,"Arriendos",False
+inv_acct_410103,l10n_cl_dib_inversiones,"410103",account.data_account_type_expenses,"Servicios Basicos, Agua y Elec",False
+inv_acct_410104,l10n_cl_dib_inversiones,"410104",account.data_account_type_expenses,"Remuneraciones",False
+inv_acct_410105,l10n_cl_dib_inversiones,"410105",account.data_account_type_expenses,"Honorarios y Comisiones",False
+inv_acct_410106,l10n_cl_dib_inversiones,"410106",account.data_account_type_expenses,"Gastos de Representación",False
+inv_acct_410107,l10n_cl_dib_inversiones,"410107",account.data_account_type_expenses,"Gastos Varios",False
+inv_acct_410108,l10n_cl_dib_inversiones,"410108",account.data_account_type_expenses,"Contribuciones",False
+inv_acct_410109,l10n_cl_dib_inversiones,"410109",account.data_account_type_expenses,"Contribuciones Leasing",False
+inv_acct_410110,l10n_cl_dib_inversiones,"410110",account.data_account_type_expenses,"Depreciaciones",False
+inv_acct_410111,l10n_cl_dib_inversiones,"410111",account.data_account_type_expenses,"Castigo Deudores",False
+inv_acct_410112,l10n_cl_dib_inversiones,"410112",account.data_account_type_expenses,"Gastos e Imptos Bancarios",False
+inv_acct_410113,l10n_cl_dib_inversiones,"410113",account.data_account_type_expenses,"Intereses Bancarios CLP",False
+inv_acct_410114,l10n_cl_dib_inversiones,"410114",account.data_account_type_expenses,"Marketing y Publicidad",False
+inv_acct_410115,l10n_cl_dib_inversiones,"410115",account.data_account_type_expenses,"Intereses por Leasing",False
+inv_acct_410116,l10n_cl_dib_inversiones,"410116",account.data_account_type_expenses,"Intereses Bancarios Nacionales",False
+inv_acct_410117,l10n_cl_dib_inversiones,"410117",account.data_account_type_expenses,"Mantención y Reparación",False
+inv_acct_410118,l10n_cl_dib_inversiones,"410118",account.data_account_type_expenses,"Capacitación y Personal",False
+inv_acct_410119,l10n_cl_dib_inversiones,"410119",account.data_account_type_expenses,"Gtos comunes propiedades propi",False
+inv_acct_410120,l10n_cl_dib_inversiones,"410120",account.data_account_type_expenses,"Gastos Legales y Notariales",False
+inv_acct_410121,l10n_cl_dib_inversiones,"410121",account.data_account_type_expenses,"Comunicación y Computación",False
+inv_acct_410122,l10n_cl_dib_inversiones,"410122",account.data_account_type_expenses,"Estudios y Comercialización Pr",False
+inv_acct_410123,l10n_cl_dib_inversiones,"410123",account.data_account_type_expenses,"Seguros",False
+inv_acct_410124,l10n_cl_dib_inversiones,"410124",account.data_account_type_expenses,"Indemnizaciones",False
+inv_acct_410125,l10n_cl_dib_inversiones,"410125",account.data_account_type_expenses,"Patentes",False
+inv_acct_410126,l10n_cl_dib_inversiones,"410126",account.data_account_type_expenses,"Honorarios Profesionales Factu",False
+inv_acct_410127,l10n_cl_dib_inversiones,"410127",account.data_account_type_expenses,"Intereses y Multas Fiscales",False
+inv_acct_410128,l10n_cl_dib_inversiones,"410128",account.data_account_type_expenses,"Seguridad y Vigilancia",False
+inv_acct_410129,l10n_cl_dib_inversiones,"410129",account.data_account_type_expenses,"Honorarios Inmobiliarios",False
+inv_acct_410130,l10n_cl_dib_inversiones,"410130",account.data_account_type_expenses,"Útiles y Materiales de Aseo Ge",False
+inv_acct_410131,l10n_cl_dib_inversiones,"410131",account.data_account_type_expenses,"Intereses financiamientos naci",False
+inv_acct_410132,l10n_cl_dib_inversiones,"410132",account.data_account_type_expenses,"Aportes patronales",False
+inv_acct_410202,l10n_cl_dib_inversiones,"410202",account.data_account_type_expenses,"Perdida Vta Acciones C/P",False
+inv_acct_410203,l10n_cl_dib_inversiones,"410203",account.data_account_type_direct_costs,"Costos de Ventas Inmobiliarios",False
+inv_acct_410205,l10n_cl_dib_inversiones,"410205",account.data_account_type_expenses,"Pérdida Vta Acciones S/P No",False
+inv_acct_410305,l10n_cl_dib_inversiones,"410305",account.data_account_type_expenses,"Pérdida Venta Fondos USD No",False
+inv_acct_410306,l10n_cl_dib_inversiones,"410306",account.data_account_type_expenses,"Otras pérdidas",False
+inv_acct_420201,l10n_cl_dib_inversiones,"420201",account.data_account_type_expenses,"Corrección Monetaria",False
+inv_acct_420601,l10n_cl_dib_inversiones,"420601",account.data_account_type_expenses,"Comisiones y D° de Bolsa C/P",False
+inv_acct_420602,l10n_cl_dib_inversiones,"420602",account.data_account_type_expenses,"Comisiones y D° de Bolsa S/P",False
+inv_acct_420603,l10n_cl_dib_inversiones,"420603",account.data_account_type_expenses,"Perdidas Venta Acciones No vi",False
+inv_acct_420604,l10n_cl_dib_inversiones,"420604",account.data_account_type_expenses,"Perdidas Vta Fondos C/P",False
+inv_acct_420605,l10n_cl_dib_inversiones,"420605",account.data_account_type_expenses,"Perdidas Vta Fondos S/P",False
+inv_acct_420701,l10n_cl_dib_inversiones,"420701",account.data_account_type_expenses,"Comisiones Inversiones USD",False
+inv_acct_420702,l10n_cl_dib_inversiones,"420702",account.data_account_type_expenses,"Intereses al Exterior USD",False
+inv_acct_420703,l10n_cl_dib_inversiones,"420703",account.data_account_type_expenses,"Perdida Vta Intrum renta fija",False
+inv_acct_420704,l10n_cl_dib_inversiones,"420704",account.data_account_type_expenses,"Pérdida Vta Acciones USD",False
+inv_acct_420705,l10n_cl_dib_inversiones,"420705",account.data_account_type_expenses,"Dif. Cambio Ventas US$",False
+inv_acct_420801,l10n_cl_dib_inversiones,"420801",account.data_account_type_expenses,"Venta Derechos Sociales",False
+inv_acct_420802,l10n_cl_dib_inversiones,"420802",account.data_account_type_expenses,"Resultados Negativos Otras Soc",False
+inv_acct_510101,l10n_cl_dib_inversiones,"510101",account.data_account_type_expenses,"Impuesto a La Renta",False

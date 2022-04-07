@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="inv_afpt_non_recoverable_vat_1" model="account.fiscal.position.template">
+        <field name="name">Compras - destinadas a generar operaciones no gravadas o exentas</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_non_recoverable_vat_1_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_non_recoverable_vat_1"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_compra_no_recup"/>
+    </record>
+
+    <record id="inv_afpt_non_recoverable_vat_2" model="account.fiscal.position.template">
+        <field name="name">Compras - Facturas de proveedores registrados fuera de plazo</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_non_recoverable_vat_2_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_non_recoverable_vat_2"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_compra_no_recup"/>
+    </record>
+
+    <record id="inv_afpt_non_recoverable_vat_3" model="account.fiscal.position.template">
+        <field name="name">Compras - Gastos rechazados</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_non_recoverable_vat_3_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_non_recoverable_vat_3"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_compra_no_recup"/>
+    </record>
+
+    <record id="inv_afpt_non_recoverable_vat_4" model="account.fiscal.position.template">
+        <field name="name">Compras - Entregas gratuitas (premios, bonificaciones, etc.) recibidos</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_non_recoverable_vat_4_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_non_recoverable_vat_4"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_compra_no_recup"/>
+    </record>
+    <record id="inv_afpt_non_recoverable_vat_4_account_2" model="account.fiscal.position.account.template">
+        <field name="position_id" ref="inv_afpt_non_recoverable_vat_4"/>
+        <field name="account_src_id" ref="inv_acct_expense_categ"/>
+        <field name="account_dest_id" ref="inv_acct_varios"/>
+    </record>
+
+    <record id="inv_afpt_non_recoverable_vat_9" model="account.fiscal.position.template">
+        <field name="name">Compras - Otros</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_non_recoverable_vat_9_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_non_recoverable_vat_9"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_compra_no_recup"/>
+    </record>
+
+    <record id="inv_afpt_fixed_asset" model="account.fiscal.position.template">
+        <field name="name">Compras - Activo Fijo</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_fixed_asset_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_fixed_asset"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_activo_fijo_uso_comun"/>
+    </record>
+    <record id="inv_afpt_fixed_asset_account_1" model="account.fiscal.position.account.template">
+        <field name="position_id" ref="inv_afpt_fixed_asset"/>
+        <field name="account_src_id" ref="inv_acct_expense_categ"/>
+        <field name="account_dest_id" ref="inv_acct_maquinarias"/>
+    </record>
+
+    <record id="inv_afpt_purchase_exempt" model="account.fiscal.position.template">
+        <field name="name">Compras - Exentas</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_purchase_exempt_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_purchase_exempt"/>
+        <field name="tax_src_id" ref="inv_OTAX_19"/>
+    </record>
+    <record id="inv_afpt_purchase_exempt_account" model="account.fiscal.position.account.template">
+        <field name="position_id" ref="inv_afpt_purchase_exempt"/>
+        <field name="account_src_id" ref="inv_acct_expense_categ"/>
+        <field name="account_dest_id" ref="inv_acct_honorarios"/>
+    </record>
+
+    <record id="inv_afpt_purchase_supermarket" model="account.fiscal.position.template">
+        <field name="name">Compras - Supermercado</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_purchase_supermarket_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_purchase_supermarket"/>
+        <field name="tax_src_id" ref="inv_ITAX_19"/>
+        <field name="tax_dest_id" ref="inv_iva_supermercado_recup"/>
+    </record>
+
+    <record id="inv_afpt_sale_exempt" model="account.fiscal.position.template">
+        <field name="name">Ventas - Exentas</field>
+        <field name="chart_template_id" ref="l10n_cl_dib_inversiones"/>
+    </record>
+    <record id="inv_afpt_sale_exempt_tax" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="inv_afpt_sale_exempt"/>
+        <field name="tax_src_id" ref="inv_ITAX_19"/>
+    </record>
+</odoo>
