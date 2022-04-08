@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="product_segment_view_form" model="ir.ui.view">
+        <field name="name">product.segment.tree.view</field>
+        <field name="model">product.segment</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="type"/>
+                <!--<field name="value_ids"/> -->
+            </tree>
+        </field>
+    </record>
+
+     <record id="segment_form" model="ir.ui.view">
+        <field name="name">product.segment.form.view</field>
+        <field name="model">product.segment</field>
+        <field name="arch" type="xml">
+            <form string="Segment Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="type"/>
+                        <!--<field name="value_ids"/> -->                        
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="segment_action" model="ir.actions.act_window">
+        <field name="name">Segments</field>
+        <field name="res_model">product.segment</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+    id="menu_stock_segments_stock"
+    name="Segments"
+    parent="stock.menu_stock_config_settings"
+    sequence="6"/>
+
+    <menuitem
+    action="segment_action"
+    id="menu_stock_segments_stock_configuration"
+    name="Configurar Segmentos"
+    parent="dib_maestros.menu_stock_segments_stock"
+    sequence="0"/>
+    
+</odoo>
+
