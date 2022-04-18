@@ -4,6 +4,10 @@ from odoo import api, fields, models, _
 
 
 class ProductSegment(models.Model):
+    """
+    Class created for Segment generation.
+    A segment is a category for a product,that can contains unique or multiple values.
+    """
     _name = "product.segment"
     _description = "Modelo para creacion de segmentos DIB"
 

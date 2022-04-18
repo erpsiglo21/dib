@@ -23,6 +23,16 @@
                         <field name="type"/>
                         <!--<field name="value_ids"/> -->                        
                     </group>
+                    <notebook>
+                        <page name="segment_values" string="Segment Values">
+                            <field name="value_ids">
+                                <tree string="Values">
+                                    <field name="value"/>
+                                    <field name="segment_id" invisible="1"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>
