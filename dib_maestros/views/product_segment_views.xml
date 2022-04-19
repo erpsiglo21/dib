@@ -7,7 +7,6 @@
             <tree>
                 <field name="name"/>
                 <field name="type"/>
-                <!--<field name="value_ids"/> -->
             </tree>
         </field>
     </record>
@@ -21,20 +20,28 @@
                     <group>
                         <field name="name"/>
                         <field name="type"/>
-                        <!--<field name="value_ids"/> -->                        
+                        <field name="color" widget="color_picker"/>
                     </group>
-                    <notebook>
-                        <page name="segment_values" string="Segment Values">
-                            <field name="value_ids">
-                                <tree string="Values">
-                                    <field name="value"/>
-                                    <field name="segment_id" invisible="1"/>
-                                </tree>
-                            </field>
-                        </page>
-                    </notebook>
+                    <group>
+                        <field name="value_ids" context="{'default_segment_id': active_id}">
+                            <tree editable="bottom">
+                                <field name="value"/>
+                            </tree>
+                        </field>
+                    </group>
                 </sheet>
             </form>
+        </field>
+    </record>
+
+    <record id="product_segment_value_view_form" model="ir.ui.view">
+        <field name="name">product.segment.value.form</field>
+        <field name="model">product.segment.value</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="segment_id" invisible="1"/>
+                <field name="value"/>
+            </tree>
         </field>
     </record>
 
@@ -45,17 +52,10 @@
     </record>
 
     <menuitem
-    id="menu_stock_segments_stock"
-    name="Segments"
-    parent="stock.menu_stock_config_settings"
-    sequence="6"/>
-
-    <menuitem
-    action="segment_action"
-    id="menu_stock_segments_stock_configuration"
-    name="Configurar Segmentos"
-    parent="dib_maestros.menu_stock_segments_stock"
-    sequence="0"/>
-    
+        action="segment_action"
+        id="menu_stock_segments_stock"
+        name="Segments"
+        parent="stock.menu_stock_config_settings"
+        sequence="6"/>
 </odoo>
 

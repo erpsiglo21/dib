@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-segment_canal_all,Consultar segmentos,model_product_segment,,1,0,0,0
-segment_canal_manager,Administrar segmentos,model_product_segment,,1,1,1,1
-segment_value_canal_all,Consultar valor segmento,model_product_segment_value,,1,0,0,0
-segment_value_canal_manager,Administrar valor segmento,model_product_segment_value,,1,1,1,1
+product_segment_manager,Administrar segmentos,model_product_segment,dib_maestros.group_product_segment,1,1,1,1
+product_segment_user,Segmentos,model_product_segment,base.group_user,1,0,0,0
+product_segment_value_manager,Administrar valores de segmentos,model_product_segment_value,dib_maestros.group_product_segment,1,1,1,1
+product_segment_value_user,Valores de segmentos,model_product_segment_value,base.group_user,1,0,0,0
