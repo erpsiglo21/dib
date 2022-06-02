@@ -1,0 +1,12 @@
+[submodule "l10n_cl_edi_mblz"]
+	path = l10n_cl_edi_mblz
+	url = git@github.com:MobilizeDevTeam/l10n_cl_edi_mblz.git
+	branch = 14.0
+[submodule "account_billing_exchange"]
+	path = account_billing_exchange
+	url = git@github.com:MobilizeDevTeam/account_billing_exchange.git
+	branch = 14.0
+[submodule "mblz_dib"]
+	path = mblz_dib
+	url = git@github.com:MobilizeDevTeam/mblz_dib.git
+	branch = 14.0
