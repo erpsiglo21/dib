@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pricelist_upload_view" model="ir.ui.view">
+	    <field name="name">pricelist.upload.view</field>
+		<field name="model">erps21.pricelist.upload</field>
+		<field name="arch" type="xml">
+		    <form string="Carga de lista de precios">
+			    <group>
+				    <field name="name"/>
+					<field name="currency_id"/>
+					<field name="file_diary"/>
+				</group>
+				<footer>
+					<button name="parse_file" string="Importar" type="object"  class="oe_highlight" />
+					<button string="Cancel" special="cancel"/>
+				</footer>
+			</form>
+		</field>
+	</record>
+	<record id="pricelist_upload_action" model="ir.actions.act_window">
+		<field name="name">Carga de lista de precios</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">erps21.pricelist.upload</field>
+		<field name="view_id" ref="pricelist_upload_view"/>
+		<field name="target">new</field>
+	</record>
+    <menuitem id="pricelist_upload_menu"
+	    name="Carga de lista de precio"
+		parent="sale.product_menu_catalog"
+		action="pricelist_upload_action"
+		groups="product.group_product_pricelist"
+		sequence="4"/>
+</odoo>
+
