@@ -10,3 +10,27 @@
 	path = mblz_dib
 	url = git@github.com:MobilizeDevTeam/mblz_dib.git
 	branch = 14.0
+[submodule "l10n_cl_account_reports_mblz"]
+	path = l10n_cl_account_reports_mblz
+	url = git@github.com:MobilizeDevTeam/l10n_cl_account_reports_mblz.git
+	branch = 14.0_jlvl
+[submodule "l10n_cl_pos_dte"]
+	path = l10n_cl_pos_dte
+	url = git@github.com:MobilizeDevTeam/l10n_cl_pos_dte.git
+	branch = 14.0-pre
+[submodule "l10n_cl_pos_transbank"]
+	path = l10n_cl_pos_transbank
+	url = git@github.com:MobilizeDevTeam/l10n_cl_pos_transbank.git
+	branch = 14.0-pre
+[submodule "mblz_pos_sale_ticket"]
+	path = mblz_pos_sale_ticket
+	url = git@github.com:MblzOdooPos/mblz_pos_sale_ticket.git
+	branch = 14.0-pre-sale
+[submodule "pos_longpolling"]
+	path = pos_longpolling
+	url = git@github.com:MblzOdooPos/pos_longpolling.git
+	branch = 14.0
+[submodule "mblz_stock_internal_transfer"]
+	path = mblz_stock_internal_transfer
+	url = git@github.com:MobilizeDevTeam/mblz_stock_internal_transfer.git
+	branch = 14.0
