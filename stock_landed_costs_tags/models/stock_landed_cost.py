@@ -29,7 +29,7 @@ class LandedCost(models.Model):
             if line.product_id.product_tmpl_id.landed_cost_ok:
                 cost_lines.update({
                     line.product_id: cost_lines.get(
-                        line.product_id, 0.0) + line.price_unit,
+                        line.product_id, 0.0) + line.balance,
                 })
 
         if not cost_lines:
