@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.form.view</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="DiB Attributes" name="dib">
+                    <group>
+                        <field name="segment_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+
+    <record id="product_template_search_view" model="ir.ui.view">
+            <field name="name">product.template.search</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_search_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//filter[@name='inactive']" position="before">
+                    <field name="segment_ids" string="Segments"/>
+                    <separator/>
+                </xpath>
+            </field>
+    </record>
+</odoo>
