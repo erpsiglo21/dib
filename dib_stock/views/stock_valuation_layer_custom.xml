@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="stock_move_valuation_layer_custom" model="ir.ui.view">
+        <field name="name">stock.move.valuation.layer.custom</field>
+        <field name="model">stock.valuation.layer</field>
+        <field name="inherit_id" ref="stock_account.stock_valuation_layer_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="/tree" position="inside">
+                <field name="location" readonly="1"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
