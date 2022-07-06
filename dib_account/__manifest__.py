@@ -13,7 +13,7 @@
     'data': [
         "security/ir.model.access.csv",
         "wizards/dib_import_rrhh_accounts_wizard.xml",
-        "views/account_move_views.xml"
-        "reports/account_move_report.xml"
+        "views/account_move_views.xml",
+        "reports/account_move_report.xml",
     ],
 }
