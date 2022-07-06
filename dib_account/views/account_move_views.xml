@@ -9,7 +9,7 @@
                <button name="%(rrhh_account_entries_upload_action)d" string="Cargar Asientos" class="oe_edit_only" type="action" context="{'current_move':id}"></button>
             </xpath>
             <xpath expr="//field[@name='ref'][2]" position="attributes">
-                <attribute name="required">[('move_type', 'not in', ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund'))]</attribute>
+                <attribute name="attr">{required: [('move_type', 'not in', ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund'))]}</attribute>
             </xpath>
         </field>
     </record>
