@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+rrhh_account_entries_upload,Carga de asientos contables RRHH,model_rrhh_account_entries_upload,,1,1,1,1
