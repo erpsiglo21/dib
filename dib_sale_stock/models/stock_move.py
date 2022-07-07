@@ -19,13 +19,6 @@ class StockMove(models.Model):
 
 class StockMoveLine(models.Model):
     _inherit = 'stock.move.line'
-    rotulate = fields.Char(compute='_get_rotulate',string="Rotulado")
-
-    def _get_rotulate(self):
-        '''
-        Get Rotulate field from Stock move, by move id
-        '''
-        for record in self:
-            record.rotulate = record.move_id.rotulate if record.move_id.rotulate else None
+    rotulate = fields.Char(related='move_id.rotulate', string="Rotulado")
 
 
