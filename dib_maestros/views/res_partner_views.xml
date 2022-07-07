@@ -11,6 +11,12 @@
                 <label for="canal_id" string="Canal" attrs="{'invisible': [('type','!=', 'delivery')]}"/>
                 <field name="canal_id" placeholder="Canal" attrs="{'invisible':[('type','!=','delivery')]}" />
             </xpath>
+            <field name="l10n_cl_dte_email" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
+            <field name="l10n_cl_activity_description" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
         </field>
     </record>
 
@@ -25,20 +31,6 @@
                 <label for="canal_id" string="Canal" attrs="{'invisible': [('type','!=', 'contact')]}"/>
                 <field name="canal_id" placeholder="Canal" attrs="{'invisible':[('type','!=','delivery')]}" />
             </label>
-        </field>
-    </record>
-
-    <record id="product_template_search_view" model="ir.ui.view">
-        <field name="name">product.template.search</field>
-        <field name="model">product.template</field>
-        <field name="inherit_id" ref="l10n_cl_edi.view_partner_l10n_cl_edi_form"/>
-        <field name="arch" type="xml">
-            <field name="l10n_cl_dte_email" position="attributes">
-                <attribute name="required">1</attribute>
-            </field>
-            <field name="l10n_cl_activity_description" position="attributes">
-                <attribute name="required">1</attribute>
-            </field>
         </field>
     </record>
 </odoo>
