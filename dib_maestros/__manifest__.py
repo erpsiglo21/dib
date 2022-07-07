@@ -9,7 +9,7 @@
     'author': 'ERP Siglo 21',
     'website': 'https://www.erpsiglo21.cl',
     'category': 'Accounting/Localizations/Account Charts',
-    'depends': ['product','stock','l10n_cl_edi'],
+    'depends': ['base','product','stock','l10n_cl_edi'],
     'data': [
         "security/security.xml",
         "security/ir.model.access.csv",
