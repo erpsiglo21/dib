@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="upload_product_state_view" model="ir.ui.view">
+	    <field name="name">upload.product.state.view</field>
+		<field name="model">upload.product.state</field>
+		<field name="arch" type="xml">
+		    <form string="Productos descontinuados">
+			    <group>
+					<field name="file_diary"/>
+				</group>
+				<footer>
+					<button name="parse_file" string="Importar" type="object"  class="oe_highlight" />
+					<button string="Cancel" special="cancel"/>
+				</footer>
+			</form>
+		</field>
+	</record>
+
+	<record id="upload_product_state_action" model="ir.actions.act_window">
+		<field name="name">Productos discontinuos</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">upload.product.state</field>
+		<field name="view_id" ref="upload_product_state_view"/>
+		<field name="target">new</field>
+	</record>
+
+    <menuitem id="upload_product_state_menu"
+	          name="Productos discontinuos"
+		      parent="stock.menu_stock_inventory_control"
+		      action="upload_product_state_action"/>
+</odoo>
+
