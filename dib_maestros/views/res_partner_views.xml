@@ -5,11 +5,36 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="model">res.partner</field>
         <field name="arch" type="xml">
-            <xpath expr="//div[@name='div_address']" position="before">
-                <label for="codigo_interno" string="Codigo cliente" attrs="{'invisible': [('type','!=', 'delivery')]}"/>
+            <xpath expr="//field[@name='street'][1]" position="attributes">
+                <attribute name="attrs">
+                    {'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'required':[('type', '=', 'contact'),('parent_id', '=', False)]}
+                </attribute>
+            </xpath>
+            <xpath expr="//field[@name='city'][1]" position="attributes">
+                <attribute name="attrs">
+                    {'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'required':[('type', '=', 'contact'),('parent_id', '=', False)]}
+                </attribute>
+                <attribute name="placeholder">Comuna</attribute>
+            </xpath>
+            <xpath expr="//field[@name='state_id'][1]" position="attributes">
+                <attribute name="attrs">
+                    {'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'required':[('type', '=', 'contact'),('parent_id', '=', False)]}
+                </attribute>
+            </xpath>
+            <xpath expr="//field[@name='country_id'][1]" position="attributes">
+                <attribute name="attrs">
+                    {'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'required':[('type', '=', 'contact'),('parent_id', '=', False)]}
+                </attribute>
+            </xpath>
+            <field name="vat" position="attributes">
+                <attribute>{'readonly': [('parent_id','!=',False)], 'required': [('parent_id','=',False)]}</attribute>
+            </field>
+            <xpath expr="//field[@name='child_ids']//label[@for='street']" position="before">
                 <field name="codigo_interno" placeholder="Codigo interno" attrs="{'invisible': [('type', '!=', 'delivery')]}"/>
-                <label for="canal_id" string="Canal" attrs="{'invisible': [('type','!=', 'delivery')]}"/>
                 <field name="canal_id" placeholder="Canal" attrs="{'invisible':[('type','!=','delivery')]}" />
+            </xpath>
+            <xpath expr="//field[@name='child_ids']//field[@name='company_id']" position="before">
+                <field name="user_id" domain="[('share', '=', False)]" attrs="{'invisible':[('type','!=','delivery')]}"/>
             </xpath>
             <field name="l10n_cl_dte_email" position="attributes">
                 <attribute name="required">1</attribute>
@@ -20,17 +45,42 @@
         </field>
     </record>
 
+    <record id="view_partner_form_pricelist" model="ir.ui.view">
+        <field name="name">res.partner.form.pricelist</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="model">res.partner</field>
+        <field name="groups_id" eval="[(4, ref('product.group_product_pricelist'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='child_ids']//field[@name='company_id']" position="before">
+                <field name="property_product_pricelist" groups="product.group_product_pricelist" attrs="{'invisible': [('type', '!=', 'delivery')]}"/>
+            </xpath>
+        </field>
+    </record>
+
     <record id="view_partner_address_form" model="ir.ui.view">
         <field name="name">res.partner.form.address</field>
         <field name="inherit_id" ref="base.view_partner_address_form"/>
         <field name="model">res.partner</field>
         <field name="arch" type="xml">
             <label for="street" position="before">
-                <label for="codigo_interno" string="Codigo cliente" attrs="{'invisible': [('type','!=', 'contact')]}"/>
                 <field name="codigo_interno" placeholder="Codigo interno" attrs="{'invisible': [('type', '!=', 'delivery')]}"/>
-                <label for="canal_id" string="Canal" attrs="{'invisible': [('type','!=', 'contact')]}"/>
                 <field name="canal_id" placeholder="Canal" attrs="{'invisible':[('type','!=','delivery')]}" />
             </label>
+            <div class="o_address_format" position="after">
+                <field name="user_id" domain="[('share', '=', False)]" attrs="{'invisible':[('type','!=','delivery')]}"/>
+            </div>
+        </field>
+    </record>
+
+    <record id="view_partner_address_form_pricelist" model="ir.ui.view">
+        <field name="name">res.partner.form.address.pricelist</field>
+        <field name="inherit_id" ref="base.view_partner_address_form"/>
+        <field name="model">res.partner</field>
+        <field name="groups_id" eval="[(4, ref('product.group_product_pricelist'))]"/>
+        <field name="arch" type="xml">
+            <div class="o_address_format" position="after">
+                <field name="property_product_pricelist" groups="product.group_product_pricelist" attrs="{'invisible': [('type', '!=', 'delivery')]}"/>
+            </div>
         </field>
     </record>
 </odoo>
